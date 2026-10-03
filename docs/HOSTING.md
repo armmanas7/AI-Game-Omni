@@ -10,4 +10,4 @@ Pushing to main runs .github/workflows/pages.yml: npm ci, 97 system checks, a ty
 
 ## Verification
 
-Local subdirectory smoke checks: docs/hosting-local-check.json. Repeat against the public site with VESPER_TEST_URL and VESPER_TEST_REPORT environment variables and node tools/verify-hosting.mjs. It checks fresh browser access, desktop/touch adaptation, both languages, first scan, atlas portrait loading, saved progress, missing assets, and page errors in Chromium and WebKit. Mobile checks are browser emulations; physical phones are not yet tested.
+Local subdirectory smoke checks: docs/hosting-local-check.json. Public-site checks: docs/hosting-public-check.json. Both passed all six desktop/phone cases. Share QR: screenshots/vesper-play-qr.png (SVG available alongside it). Repeat against the public site with VESPER_TEST_URL and VESPER_TEST_REPORT environment variables and node tools/verify-hosting.mjs. It checks fresh browser access, desktop/touch adaptation, both languages, first scan, atlas portrait loading, saved progress, missing assets, and page errors in Chromium and WebKit. Mobile checks are browser emulations; physical phones are not yet tested.
