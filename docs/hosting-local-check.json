@@ -1,0 +1,91 @@
+{
+  "url": "http://127.0.0.1:4186/AI-Game-Omni/",
+  "verifiedAt": "2026-10-03T13:42:48.886Z",
+  "results": [
+    {
+      "engine": "chromium",
+      "name": "desktop-en",
+      "language": "en",
+      "mobile": false,
+      "passed": true,
+      "touchControls": false,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    },
+    {
+      "engine": "chromium",
+      "name": "desktop-zh",
+      "language": "zh-CN",
+      "mobile": false,
+      "passed": true,
+      "touchControls": false,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    },
+    {
+      "engine": "chromium",
+      "name": "phone-portrait-en",
+      "language": "en",
+      "mobile": true,
+      "passed": true,
+      "touchControls": true,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    },
+    {
+      "engine": "chromium",
+      "name": "phone-landscape-zh",
+      "language": "zh-CN",
+      "mobile": true,
+      "passed": true,
+      "touchControls": true,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    },
+    {
+      "engine": "webkit",
+      "name": "phone-portrait-en",
+      "language": "en",
+      "mobile": true,
+      "passed": true,
+      "touchControls": true,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    },
+    {
+      "engine": "webkit",
+      "name": "phone-landscape-zh",
+      "language": "zh-CN",
+      "mobile": true,
+      "passed": true,
+      "touchControls": true,
+      "firstDiscovery": true,
+      "savedProgress": true,
+      "portrait": "./specimens/pearl-lantern.png",
+      "errors": [],
+      "badResponses": [],
+      "escapedAssets": []
+    }
+  ],
+  "note": "Phone browser emulations; scan hold uses simulated pointer events. Physical phones remain untested."
+}
