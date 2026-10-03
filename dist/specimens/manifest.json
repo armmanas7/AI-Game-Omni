@@ -1,0 +1,1423 @@
+{
+  "name": "Vesper field-atlas specimen portraits",
+  "provenance": "Rendered from original code-authored models in src/models.ts, src/flora-models.ts, src/fauna-models.ts and src/aquatic-avian-models.ts. No third-party imagery.",
+  "width": 384,
+  "height": 384,
+  "background": "transparent",
+  "camera": "consistent orthographic three-quarter view; creatures face local -Z",
+  "modelSeed": 8,
+  "count": 60,
+  "totalBytes": 1877602,
+  "sourceFiles": [
+    {
+      "file": "src/models.ts",
+      "sha256": "327211fec244b9cf945147d14aadc60405b99659f41f02dad6c29d67d07d73b4"
+    },
+    {
+      "file": "src/model-kit.ts",
+      "sha256": "f9e9131403b5d0926d974b1c268faf6453d07e875f207523bc4700c707ea4ff9"
+    },
+    {
+      "file": "src/flora-models.ts",
+      "sha256": "0d969a72349f00b7b5c1efee30e74605b7d3af8726a323fb5de6a6734e56122f"
+    },
+    {
+      "file": "src/fauna-models.ts",
+      "sha256": "f0ea06737b78d326d579103fd3736df9ba1b7ef59cb7f73489438ff2226aa899"
+    },
+    {
+      "file": "src/aquatic-avian-models.ts",
+      "sha256": "77d6e40ea56f82010d838e60733ece5fcd2a70a5869bd722face9e87bf333502"
+    },
+    {
+      "file": "src/data.ts",
+      "sha256": "00c8116dd662ebd8a03f5ec379759d81f5131a381bee3f4f8762f70c7da80376"
+    },
+    {
+      "file": "tools/catalog-preview.html",
+      "sha256": "d2bf11761329ea2221736c47d89919420c53a3faf790a274eca637dd31c98fe2"
+    }
+  ],
+  "entries": [
+    {
+      "id": "pearl-lantern",
+      "name": "Pearl Lantern",
+      "model": "lantern-bloom",
+      "category": "flora",
+      "file": "pearl-lantern.png",
+      "meshes": 5,
+      "triangles": 2640,
+      "bounds": {
+        "min": [
+          -0.7505350112915039,
+          0,
+          -0.7709187269210815
+        ],
+        "max": [
+          0.8416184782981873,
+          2.4416833336651322,
+          0.8303192257881165
+        ]
+      },
+      "bytes": 28289,
+      "sha256": "c85bdf56ea86ec3c179a0c1f2a0eac8ec6393170261f20e199d292e7d12911e9"
+    },
+    {
+      "id": "crownspore",
+      "name": "Crownspore",
+      "model": "spore-crown",
+      "category": "flora",
+      "file": "crownspore.png",
+      "meshes": 5,
+      "triangles": 1892,
+      "bounds": {
+        "min": [
+          -0.8582599639892577,
+          0,
+          -0.8715000200271606
+        ],
+        "max": [
+          0.8582599639892577,
+          2.3661301422119143,
+          0.8715000200271606
+        ]
+      },
+      "bytes": 24843,
+      "sha256": "61ae2a34f1aa999f57ef4cff40f7b4982e4668dd064ebeca6c70c4c60807d317"
+    },
+    {
+      "id": "prism-frond",
+      "name": "Prism Frond",
+      "model": "prism-fern",
+      "category": "flora",
+      "file": "prism-frond.png",
+      "meshes": 4,
+      "triangles": 628,
+      "bounds": {
+        "min": [
+          -0.6885038018226624,
+          0,
+          -0.7812250852584839
+        ],
+        "max": [
+          0.6885038018226624,
+          2.4056496810913086,
+          0.6591134071350098
+        ]
+      },
+      "bytes": 13993,
+      "sha256": "73b6d7d83a44a5309d674b89e55bcd0e06751500405e3df2c648e14d4c664dfe"
+    },
+    {
+      "id": "whisper-reed",
+      "name": "Whisper Reed",
+      "model": "reed",
+      "category": "flora",
+      "file": "whisper-reed.png",
+      "meshes": 3,
+      "triangles": 2020,
+      "bounds": {
+        "min": [
+          -0.33936503529548645,
+          0,
+          -0.30415621399879456
+        ],
+        "max": [
+          0.4650000035762787,
+          2.883984405081719,
+          0.8428287506103516
+        ]
+      },
+      "bytes": 23321,
+      "sha256": "9757ed662ba90b495f5b30d73db86aea4921a4ec19f0e238646ae8f7effc2b7c"
+    },
+    {
+      "id": "copperfan",
+      "name": "Copperfan",
+      "model": "fan-fern",
+      "category": "flora",
+      "file": "copperfan.png",
+      "meshes": 4,
+      "triangles": 2444,
+      "bounds": {
+        "min": [
+          -1.5721014738082886,
+          0,
+          -1.4529908895492554
+        ],
+        "max": [
+          1.5721014738082886,
+          1.7,
+          1.612428069114685
+        ]
+      },
+      "bytes": 32676,
+      "sha256": "8233b0f185ae1e738a4a21ffbb09657cdcf7939e98e5de86b6035f03fd59301f"
+    },
+    {
+      "id": "lumen-moth",
+      "name": "Lumen Moth",
+      "model": "moth",
+      "category": "fauna",
+      "file": "lumen-moth.png",
+      "meshes": 5,
+      "triangles": 976,
+      "bounds": {
+        "min": [
+          -0.9401566893285777,
+          0,
+          -0.23790947394214176
+        ],
+        "max": [
+          0.9401566893285777,
+          1.3632005197571604,
+          0.6093306858266851
+        ]
+      },
+      "bytes": 36834,
+      "sha256": "ee94a11c02830059c3bccf552e0dee62e8341a488e60d74ada9f596c572cd31f"
+    },
+    {
+      "id": "heartwood-archive",
+      "name": "Heartwood Archive",
+      "model": "heartwood",
+      "category": "relic",
+      "file": "heartwood-archive.png",
+      "meshes": 5,
+      "triangles": 3384,
+      "bounds": {
+        "min": [
+          -0.969429612159729,
+          0,
+          -0.8654162693023683
+        ],
+        "max": [
+          0.969429612159729,
+          2.6955532915890217,
+          0.8654162693023683
+        ]
+      },
+      "bytes": 54419,
+      "sha256": "f2743590fd2b722fa788a1c8d227821909d39eb429fee6f1315589927d7cd07d"
+    },
+    {
+      "id": "glass-cactus",
+      "name": "Glass Cactus",
+      "model": "glass-cactus",
+      "category": "flora",
+      "file": "glass-cactus.png",
+      "meshes": 5,
+      "triangles": 2248,
+      "bounds": {
+        "min": [
+          -0.7300000190734863,
+          0,
+          -0.3232472991943359
+        ],
+        "max": [
+          0.6800000071525574,
+          2.664610538482666,
+          0.3232472991943359
+        ]
+      },
+      "bytes": 22301,
+      "sha256": "14cb305ca2408a7074636248c28b15228c1f56069a4ed0eab302217e889a7da9"
+    },
+    {
+      "id": "sun-stone",
+      "name": "Sun Stone",
+      "model": "sun-stone",
+      "category": "mineral",
+      "file": "sun-stone.png",
+      "meshes": 4,
+      "triangles": 456,
+      "bounds": {
+        "min": [
+          -0.9044459390980918,
+          0,
+          -0.7108456706803643
+        ],
+        "max": [
+          0.9044459390980918,
+          1.788954604105025,
+          0.7108456706803643
+        ]
+      },
+      "bytes": 21432,
+      "sha256": "bbc517416f4df66a8f574111a58b4d38e9cf12c401c0a8991072f40cfeed3774"
+    },
+    {
+      "id": "sand-rose",
+      "name": "Sand Rose",
+      "model": "sand-rose",
+      "category": "flora",
+      "file": "sand-rose.png",
+      "meshes": 5,
+      "triangles": 4500,
+      "bounds": {
+        "min": [
+          -0.9769457578659058,
+          0,
+          -0.9323362708091736
+        ],
+        "max": [
+          0.9769457578659058,
+          0.92,
+          0.9919309616088867
+        ]
+      },
+      "bytes": 26477,
+      "sha256": "ae565386271a3e3198a6211735fb27cbafe8b3ffbb5529abb41f8d077a8b90c9"
+    },
+    {
+      "id": "dune-memory",
+      "name": "Dune Memory",
+      "model": "memory-shard",
+      "category": "relic",
+      "file": "dune-memory.png",
+      "meshes": 4,
+      "triangles": 452,
+      "bounds": {
+        "min": [
+          -0.4156921863555908,
+          0,
+          -0.48
+        ],
+        "max": [
+          0.49364022208780234,
+          2.640156116274761,
+          0.48
+        ]
+      },
+      "bytes": 9267,
+      "sha256": "d6ab9636e931a78e5e3004e130e7a076730985643fe3d5c720fb59738f673b17"
+    },
+    {
+      "id": "wind-needle",
+      "name": "Wind Needle",
+      "model": "desert-spire",
+      "category": "mineral",
+      "file": "wind-needle.png",
+      "meshes": 4,
+      "triangles": 300,
+      "bounds": {
+        "min": [
+          -0.9883566493310729,
+          0,
+          -0.7230531692504882
+        ],
+        "max": [
+          0.9915180051416324,
+          8.179056599033576,
+          0.7230531692504882
+        ]
+      },
+      "bytes": 15088,
+      "sha256": "f13b39fcfd139f0195e0f2212824529ecbdc72e2ecf5b2fc42b220d8e6b1674c"
+    },
+    {
+      "id": "ochre-geode",
+      "name": "Ochre Geode",
+      "model": "dune-rock",
+      "category": "mineral",
+      "file": "ochre-geode.png",
+      "meshes": 3,
+      "triangles": 60,
+      "bounds": {
+        "min": [
+          -1.7160435808266334,
+          0,
+          -1.4037947673028182
+        ],
+        "max": [
+          1.7160435808266334,
+          2.0127919555106484,
+          1.4037947673028182
+        ]
+      },
+      "bytes": 6879,
+      "sha256": "1a30772045fa1fbc5381cd996b89560f8f85f0e5bcb1d297f8a376483a9cad02"
+    },
+    {
+      "id": "heliograph-dial",
+      "name": "Heliograph Dial",
+      "model": "sun-dial",
+      "category": "relic",
+      "file": "heliograph-dial.png",
+      "meshes": 5,
+      "triangles": 656,
+      "bounds": {
+        "min": [
+          -1.18,
+          0,
+          -1.18
+        ],
+        "max": [
+          1.18,
+          2.5412777021202926,
+          1.18
+        ]
+      },
+      "bytes": 22677,
+      "sha256": "b33fb6aecc0bf084723009455ab6b761613ded588f703d98ab812e2f2a9fb683"
+    },
+    {
+      "id": "echo-crystal",
+      "name": "Echo Crystal",
+      "model": "echo-crystal",
+      "category": "mineral",
+      "file": "echo-crystal.png",
+      "meshes": 5,
+      "triangles": 852,
+      "bounds": {
+        "min": [
+          -0.7454952172668721,
+          0,
+          -0.6335705789952669
+        ],
+        "max": [
+          0.6336475503508125,
+          2.631980980185075,
+          0.6335705789952669
+        ]
+      },
+      "bytes": 14839,
+      "sha256": "85746d21f01b5ae55be22857103284a2058f8a4fb1734cc0a379e5856cabae78"
+    },
+    {
+      "id": "cave-coral",
+      "name": "Cave Coral",
+      "model": "cave-coral",
+      "category": "flora",
+      "file": "cave-coral.png",
+      "meshes": 4,
+      "triangles": 1532,
+      "bounds": {
+        "min": [
+          -0.7563118934631348,
+          0,
+          -0.8557395339012146
+        ],
+        "max": [
+          0.8899999856948853,
+          2.2927275523959363,
+          0.8557395339012146
+        ]
+      },
+      "bytes": 39684,
+      "sha256": "36abdcc0900796ff699cc4b14c6d62385671096395e7ec18acb2e2e4a0139872"
+    },
+    {
+      "id": "ice-bouquet",
+      "name": "Ice Bouquet",
+      "model": "crystal-cluster",
+      "category": "mineral",
+      "file": "ice-bouquet.png",
+      "meshes": 4,
+      "triangles": 148,
+      "bounds": {
+        "min": [
+          -1.4796148538589478,
+          0,
+          -1.0210829973220825
+        ],
+        "max": [
+          1.4637010097503662,
+          4.084981531088771,
+          1.0561047792434692
+        ]
+      },
+      "bytes": 9381,
+      "sha256": "c562f0a5509f707026e8fc43342eae9fa6c347b9d50b063540ac2fde11959423"
+    },
+    {
+      "id": "tide-column",
+      "name": "Tide Column",
+      "model": "cave-column",
+      "category": "mineral",
+      "file": "tide-column.png",
+      "meshes": 5,
+      "triangles": 498,
+      "bounds": {
+        "min": [
+          -1.0633134841918945,
+          0,
+          -0.9357158660888673
+        ],
+        "max": [
+          1.4752306043070909,
+          8.700563992932437,
+          0.9357158660888673
+        ]
+      },
+      "bytes": 14145,
+      "sha256": "f1531a6585bfb0a30adb69c1cdc3191c94e3f13d9523e3e7dead9591219655f4"
+    },
+    {
+      "id": "hollow-memory",
+      "name": "Hollow Memory",
+      "model": "memory-shard",
+      "category": "relic",
+      "file": "hollow-memory.png",
+      "meshes": 4,
+      "triangles": 452,
+      "bounds": {
+        "min": [
+          -0.4156921863555908,
+          0,
+          -0.48
+        ],
+        "max": [
+          0.49364022208780234,
+          2.640156116274761,
+          0.48
+        ]
+      },
+      "bytes": 9267,
+      "sha256": "d6ab9636e931a78e5e3004e130e7a076730985643fe3d5c720fb59738f673b17"
+    },
+    {
+      "id": "glimmer-moth",
+      "name": "Glimmer Moth",
+      "model": "moth",
+      "category": "fauna",
+      "file": "glimmer-moth.png",
+      "meshes": 5,
+      "triangles": 976,
+      "bounds": {
+        "min": [
+          -0.9401566893285777,
+          0,
+          -0.23790947394214176
+        ],
+        "max": [
+          0.9401566893285777,
+          1.3632005197571604,
+          0.6093306858266851
+        ]
+      },
+      "bytes": 36834,
+      "sha256": "ee94a11c02830059c3bccf552e0dee62e8341a488e60d74ada9f596c572cd31f"
+    },
+    {
+      "id": "harmonic-heart",
+      "name": "Harmonic Heart",
+      "model": "harmonic-core",
+      "category": "relic",
+      "file": "harmonic-heart.png",
+      "meshes": 6,
+      "triangles": 1244,
+      "bounds": {
+        "min": [
+          -1.2178751404067072,
+          0,
+          -1.2685000562667843
+        ],
+        "max": [
+          1.2178751404067072,
+          2.806531045379012,
+          1.2685000562667843
+        ]
+      },
+      "bytes": 49060,
+      "sha256": "176d09959bf6595da5e74744734fc209f5e7ca254cf42770a3bca41aee280d80"
+    },
+    {
+      "id": "spirepine",
+      "name": "Spirepine",
+      "model": "spire-pine",
+      "category": "flora",
+      "file": "spirepine.png",
+      "meshes": 3,
+      "triangles": 1354,
+      "bounds": {
+        "min": [
+          -2.456570863723755,
+          0,
+          -2.319288730621338
+        ],
+        "max": [
+          2.5145671367645264,
+          10.512571361265145,
+          2.527968406677246
+        ]
+      },
+      "bytes": 19594,
+      "sha256": "82010c6a3758838cace40bc5ea444dcd206df6f8e6ecd55b0b9b47a178442535"
+    },
+    {
+      "id": "silver-birch",
+      "name": "Silver Birch",
+      "model": "silver-birch",
+      "category": "flora",
+      "file": "silver-birch.png",
+      "meshes": 4,
+      "triangles": 1548,
+      "bounds": {
+        "min": [
+          -4.0073747634887695,
+          0,
+          -3.8252480030059814
+        ],
+        "max": [
+          3.568847417831421,
+          10.244013790041208,
+          3.65714693069458
+        ]
+      },
+      "bytes": 24453,
+      "sha256": "26c80f73cc0bf3b99bf49932a5becfdedb1f401de58a331df8f74c4444ca80c1"
+    },
+    {
+      "id": "veilwillow",
+      "name": "Veilwillow",
+      "model": "veil-willow",
+      "category": "flora",
+      "file": "veilwillow.png",
+      "meshes": 4,
+      "triangles": 3416,
+      "bounds": {
+        "min": [
+          -4.2697930335998535,
+          0,
+          -4.22625732421875
+        ],
+        "max": [
+          4.010138511657715,
+          7.298207134008408,
+          4.060365200042725
+        ]
+      },
+      "bytes": 79029,
+      "sha256": "20e7d3ef016e3c54c0da9fb4d0f1de9239d7452f98950a7b0149499e3fbe4363"
+    },
+    {
+      "id": "coralwood",
+      "name": "Coralwood",
+      "model": "coral-tree",
+      "category": "flora",
+      "file": "coralwood.png",
+      "meshes": 3,
+      "triangles": 2424,
+      "bounds": {
+        "min": [
+          -3.7812118530273438,
+          0,
+          -3.6239819526672363
+        ],
+        "max": [
+          3.4682934284210205,
+          7.403053310117684,
+          3.6670913696289062
+        ]
+      },
+      "bytes": 41805,
+      "sha256": "5f4da5f69e229518dcbe3f7b90b51a70601ee9fd2810700cc6c3f4482f1fdbc0"
+    },
+    {
+      "id": "cistern-baobab",
+      "name": "Cistern Baobab",
+      "model": "baobab-tree",
+      "category": "flora",
+      "file": "cistern-baobab.png",
+      "meshes": 4,
+      "triangles": 2208,
+      "bounds": {
+        "min": [
+          -4.921425819396973,
+          0,
+          -4.916691780090332
+        ],
+        "max": [
+          4.9652838706970215,
+          9.436697274446487,
+          5.102055072784424
+        ]
+      },
+      "bytes": 31568,
+      "sha256": "f5d402b47ec928c70bf2e7778fa29282c00db43b409079de9623c3d06b4a9ec4"
+    },
+    {
+      "id": "spiralwood",
+      "name": "Spiralwood",
+      "model": "spiral-tree",
+      "category": "flora",
+      "file": "spiralwood.png",
+      "meshes": 4,
+      "triangles": 2496,
+      "bounds": {
+        "min": [
+          -2.2990379333496094,
+          0,
+          -2.2398478984832764
+        ],
+        "max": [
+          2.076517105102539,
+          8.921327322721481,
+          2.2432239055633545
+        ]
+      },
+      "bytes": 44348,
+      "sha256": "54d82f3e3c25592406a6b2c58584bac69694d2188d61979bc452338e959cc582"
+    },
+    {
+      "id": "crown-fern",
+      "name": "Crown Fern",
+      "model": "tree-fern",
+      "category": "flora",
+      "file": "crown-fern.png",
+      "meshes": 4,
+      "triangles": 2688,
+      "bounds": {
+        "min": [
+          -3.1224935054779053,
+          0,
+          -3.1224935054779053
+        ],
+        "max": [
+          3.1224935054779053,
+          5.825957298278809,
+          3.1224935054779053
+        ]
+      },
+      "bytes": 51153,
+      "sha256": "de74e3cc26f76b0cb916b033f418fe8bb5a37915a91c5d96f1dd48fd6f3eb79d"
+    },
+    {
+      "id": "sunfan-palm",
+      "name": "Sunfan Palm",
+      "model": "fan-palm",
+      "category": "flora",
+      "file": "sunfan-palm.png",
+      "meshes": 4,
+      "triangles": 4056,
+      "bounds": {
+        "min": [
+          -2.291992664337158,
+          0,
+          -2.81769061088562
+        ],
+        "max": [
+          3.791992664337158,
+          9.292611287906766,
+          3.0576906204223633
+        ]
+      },
+      "bytes": 28347,
+      "sha256": "081955f4a9852c8d743ece0cb43973bbcf99e132db3c338d66515dbb5d5d9806"
+    },
+    {
+      "id": "starpetal",
+      "name": "Starpetal",
+      "model": "starflower",
+      "category": "flora",
+      "file": "starpetal.png",
+      "meshes": 4,
+      "triangles": 760,
+      "bounds": {
+        "min": [
+          -0.548977255821228,
+          0,
+          -0.6427568793296814
+        ],
+        "max": [
+          0.7489772439002991,
+          1.4626757849473506,
+          0.6427568793296814
+        ]
+      },
+      "bytes": 30962,
+      "sha256": "d554344aa071a827eaebebdab169a607fa953d21bb3d617d05c0ec1b9b4f198d"
+    },
+    {
+      "id": "dew-bells",
+      "name": "Dew Bells",
+      "model": "bellflower",
+      "category": "flora",
+      "file": "dew-bells.png",
+      "meshes": 4,
+      "triangles": 1384,
+      "bounds": {
+        "min": [
+          -0.7492654919624329,
+          0,
+          -0.7492654919624329
+        ],
+        "max": [
+          0.7492654919624329,
+          1.958380863070488,
+          0.7492654919624329
+        ]
+      },
+      "bytes": 37882,
+      "sha256": "c8ea5adaa758b10fc85f9e4ea74e2b43ae82ce64646d76a36801d99e7ff756b2"
+    },
+    {
+      "id": "ribbon-orchid",
+      "name": "Ribbon Orchid",
+      "model": "orchid",
+      "category": "flora",
+      "file": "ribbon-orchid.png",
+      "meshes": 4,
+      "triangles": 1296,
+      "bounds": {
+        "min": [
+          -0.7063238620758057,
+          0,
+          -0.5555031299591064
+        ],
+        "max": [
+          0.8579307198524475,
+          2.009659721981734,
+          0.7893848419189453
+        ]
+      },
+      "bytes": 54810,
+      "sha256": "be097683db9f1b9dae663754f258866c6fab775c8e2425acf4808e1ff5a31619"
+    },
+    {
+      "id": "sunburst",
+      "name": "Sunburst",
+      "model": "sunburst-flower",
+      "category": "flora",
+      "file": "sunburst.png",
+      "meshes": 4,
+      "triangles": 1492,
+      "bounds": {
+        "min": [
+          -0.7284725904464722,
+          0,
+          -0.7548039555549622
+        ],
+        "max": [
+          0.8284726142883301,
+          2.129134360817261,
+          0.7863274216651917
+        ]
+      },
+      "bytes": 34994,
+      "sha256": "58f6e0554285807773e9dc90d54a80fbfeb8dbf45576c5b126eb1881590ea270"
+    },
+    {
+      "id": "moon-lotus",
+      "name": "Moon Lotus",
+      "model": "lotus",
+      "category": "flora",
+      "file": "moon-lotus.png",
+      "meshes": 4,
+      "triangles": 1272,
+      "bounds": {
+        "min": [
+          -1,
+          0,
+          -0.9191140532493591
+        ],
+        "max": [
+          1,
+          0.8299999739974737,
+          0.9191140532493591
+        ]
+      },
+      "bytes": 37862,
+      "sha256": "5e0b707f8a1495b7c016bb127c9b58bf9d5c514420600b185f8ab357e0765798"
+    },
+    {
+      "id": "foxglove-spire",
+      "name": "Foxglove Spire",
+      "model": "foxglove",
+      "category": "flora",
+      "file": "foxglove-spire.png",
+      "meshes": 4,
+      "triangles": 1552,
+      "bounds": {
+        "min": [
+          -0.670653760433197,
+          0,
+          -0.7744042277336121
+        ],
+        "max": [
+          0.670653760433197,
+          2.6329106425400823,
+          0.7744042277336121
+        ]
+      },
+      "bytes": 37669,
+      "sha256": "e1226e37fa9f20e84c3226786b3ace350696bfd62e0766f8227bcc4351131702"
+    },
+    {
+      "id": "amberberry",
+      "name": "Amberberry",
+      "model": "berry-bush",
+      "category": "flora",
+      "file": "amberberry.png",
+      "meshes": 4,
+      "triangles": 1120,
+      "bounds": {
+        "min": [
+          -1.4555913209915161,
+          0,
+          -1.311604619026184
+        ],
+        "max": [
+          1.2766475677490234,
+          1.9085852168500423,
+          1.5377259254455566
+        ]
+      },
+      "bytes": 17088,
+      "sha256": "7973ca52b8bc083fea667099c3f8a9c6b8db8ec46b86a3ec83968aefbf1c705a"
+    },
+    {
+      "id": "oasis-cycad",
+      "name": "Oasis Cycad",
+      "model": "cycad",
+      "category": "flora",
+      "file": "oasis-cycad.png",
+      "meshes": 4,
+      "triangles": 1538,
+      "bounds": {
+        "min": [
+          -1.7119675874710083,
+          0,
+          -1.7119675874710083
+        ],
+        "max": [
+          1.7119675874710083,
+          1.5883775046095252,
+          1.7119675874710083
+        ]
+      },
+      "bytes": 49346,
+      "sha256": "9813182916556d7bcd4bc597701376dd289a4caedbad866023e718a8d95b8074"
+    },
+    {
+      "id": "silver-aloe",
+      "name": "Silver Aloe",
+      "model": "aloe",
+      "category": "flora",
+      "file": "silver-aloe.png",
+      "meshes": 4,
+      "triangles": 1416,
+      "bounds": {
+        "min": [
+          -1.1114153861999512,
+          0,
+          -1.1114153861999512
+        ],
+        "max": [
+          1.1114153861999512,
+          2.1323374721687287,
+          1.1114153861999512
+        ]
+      },
+      "bytes": 49003,
+      "sha256": "6d1ad3e4b8ccf1bee7866c77ae118f3016b53eb60b642e24fa63f7a5351d7b47"
+    },
+    {
+      "id": "barrel-cactus",
+      "name": "Copper Barrel",
+      "model": "barrel-cactus",
+      "category": "flora",
+      "file": "barrel-cactus.png",
+      "meshes": 4,
+      "triangles": 1492,
+      "bounds": {
+        "min": [
+          -0.8600000143051147,
+          0,
+          -0.8179085850715637
+        ],
+        "max": [
+          0.8600000143051147,
+          2.111518383026123,
+          0.8179085850715637
+        ]
+      },
+      "bytes": 59153,
+      "sha256": "265678c52e51965e1378d3b83c56018ceeb02f4f1bb0e7bd370bf5cdcb472a5b"
+    },
+    {
+      "id": "prickly-sail",
+      "name": "Prickly Sail",
+      "model": "prickly-pear",
+      "category": "flora",
+      "file": "prickly-sail.png",
+      "meshes": 4,
+      "triangles": 1526,
+      "bounds": {
+        "min": [
+          -1.2735868692398071,
+          0,
+          -0.15470774471759796
+        ],
+        "max": [
+          1.1433054208755493,
+          2.960000094026327,
+          0.2671413719654083
+        ]
+      },
+      "bytes": 36322,
+      "sha256": "5a878d68625b6fb05ae78e1922e0ee14bc515bf0587ff1a95513ffdcab8d6089"
+    },
+    {
+      "id": "velvet-puffball",
+      "name": "Velvet Puffball",
+      "model": "puffball",
+      "category": "flora",
+      "file": "velvet-puffball.png",
+      "meshes": 3,
+      "triangles": 1440,
+      "bounds": {
+        "min": [
+          -0.6809865236282349,
+          0,
+          -0.8734680414199829
+        ],
+        "max": [
+          0.6731846928596497,
+          1.0055999662727118,
+          0.7519330382347107
+        ]
+      },
+      "bytes": 35063,
+      "sha256": "740e4e153dd5847326ca136545a3b58a83a370684c486f981a16cb7dd500591e"
+    },
+    {
+      "id": "shelf-colony",
+      "name": "Shelf Colony",
+      "model": "shelf-fungus",
+      "category": "flora",
+      "file": "shelf-colony.png",
+      "meshes": 3,
+      "triangles": 1020,
+      "bounds": {
+        "min": [
+          -0.8150239586830139,
+          0,
+          -0.9198978543281555
+        ],
+        "max": [
+          1.0353078842163086,
+          1.8700659275054932,
+          0.9495135545730591
+        ]
+      },
+      "bytes": 24844,
+      "sha256": "2f2909cb89c0cd584805ad70d486bbbb56b78d3e7ee9ba8620cab25f16e3d1ee"
+    },
+    {
+      "id": "violet-glowcap",
+      "name": "Violet Glowcap",
+      "model": "glowcap",
+      "category": "flora",
+      "file": "violet-glowcap.png",
+      "meshes": 4,
+      "triangles": 1056,
+      "bounds": {
+        "min": [
+          -0.9386975765228271,
+          0,
+          -1.0349438190460205
+        ],
+        "max": [
+          0.7599999904632568,
+          2.0227439403533936,
+          0.8150680065155029
+        ]
+      },
+      "bytes": 24107,
+      "sha256": "d7291fa0b821ef4dac4bdff361f3172592492e43d436c3a5cafe1e24c4760da5"
+    },
+    {
+      "id": "mirrorleaf",
+      "name": "Mirrorleaf",
+      "model": "lily-pad",
+      "category": "flora",
+      "file": "mirrorleaf.png",
+      "meshes": 4,
+      "triangles": 688,
+      "bounds": {
+        "min": [
+          -1.0736069679260254,
+          0,
+          -1.0036239624023438
+        ],
+        "max": [
+          1.077290415763855,
+          0.3774999873712659,
+          0.999631941318512
+        ]
+      },
+      "bytes": 16182,
+      "sha256": "e61d4936e652090a996937897dc431cbed1396ecc60342af963bc1619d896cfb"
+    },
+    {
+      "id": "balanced-stone",
+      "name": "Balanced Stone",
+      "model": "boulder-stack",
+      "category": "mineral",
+      "file": "balanced-stone.png",
+      "meshes": 3,
+      "triangles": 140,
+      "bounds": {
+        "min": [
+          -1.3568168878555298,
+          0,
+          -1.1452661752700806
+        ],
+        "max": [
+          1.3568168878555298,
+          2.8423505648970604,
+          1.1819251775741577
+        ]
+      },
+      "bytes": 11000,
+      "sha256": "ae171ae0389d80404897f6f8ae0c256fa8f13d0030d203908f6fc0b23462c3a1"
+    },
+    {
+      "id": "moss-grazer",
+      "name": "Moss Grazer",
+      "model": "moss-grazer",
+      "category": "fauna",
+      "file": "moss-grazer.png",
+      "meshes": 11,
+      "triangles": 5688,
+      "bounds": {
+        "min": [
+          -0.5413681268692017,
+          0,
+          -1.0100000071525574
+        ],
+        "max": [
+          0.5413681268692017,
+          1.8096719574928284,
+          0.9728913903236389
+        ]
+      },
+      "bytes": 46863,
+      "sha256": "fc52693b65cf1f8a4b975bacc2529588d7eac7781eb910847a70fbb5e45f1293"
+    },
+    {
+      "id": "fern-hopper",
+      "name": "Fern Hopper",
+      "model": "fern-hopper",
+      "category": "fauna",
+      "file": "fern-hopper.png",
+      "meshes": 9,
+      "triangles": 3392,
+      "bounds": {
+        "min": [
+          -0.5032628178596497,
+          0,
+          -0.6400000059604645
+        ],
+        "max": [
+          0.5032628178596497,
+          1.5700104582309722,
+          0.699999988079071
+        ]
+      },
+      "bytes": 41631,
+      "sha256": "affa7c62a71163331a53dc6b536bca48c16a46b35431888b88aec8aca06f3b6a"
+    },
+    {
+      "id": "pearl-shellback",
+      "name": "Pearl Shellback",
+      "model": "shellback",
+      "category": "fauna",
+      "file": "pearl-shellback.png",
+      "meshes": 10,
+      "triangles": 3696,
+      "bounds": {
+        "min": [
+          -0.7100000071525574,
+          0,
+          -1.23
+        ],
+        "max": [
+          0.7100000071525574,
+          0.9620000165700913,
+          1.1799999475479126
+        ]
+      },
+      "bytes": 45871,
+      "sha256": "ce60e4fa2272d304551596ce297297f3feb3c6a9a36a488910d25d988dc3483c"
+    },
+    {
+      "id": "glass-stag",
+      "name": "Glass Stag",
+      "model": "glass-stag",
+      "category": "fauna",
+      "file": "glass-stag.png",
+      "meshes": 9,
+      "triangles": 3160,
+      "bounds": {
+        "min": [
+          -0.9896690249443054,
+          0,
+          -1.2799999809265137
+        ],
+        "max": [
+          0.9896690249443054,
+          3.4406271457672117,
+          1.1600260734558105
+        ]
+      },
+      "bytes": 30774,
+      "sha256": "40c7469e78ca7f12226d0724a81b8176451466411ce3164627ae8ec748d0b280"
+    },
+    {
+      "id": "dune-runner",
+      "name": "Dune Runner",
+      "model": "dune-runner",
+      "category": "fauna",
+      "file": "dune-runner.png",
+      "meshes": 9,
+      "triangles": 2888,
+      "bounds": {
+        "min": [
+          -0.3800000002980232,
+          0,
+          -1.029999989271164
+        ],
+        "max": [
+          0.3800000002980232,
+          2.187874355316162,
+          1.5838069455331165
+        ]
+      },
+      "bytes": 35325,
+      "sha256": "0b0f5e7b2a602038c2ce0cb9d277ce8c329f04fc3ec4f46192545b6801b7316a"
+    },
+    {
+      "id": "sand-beetle",
+      "name": "Sand Beetle",
+      "model": "sand-beetle",
+      "category": "fauna",
+      "file": "sand-beetle.png",
+      "meshes": 11,
+      "triangles": 2824,
+      "bounds": {
+        "min": [
+          -0.6939999961853027,
+          0,
+          -0.9841379523277283
+        ],
+        "max": [
+          0.6939999961853027,
+          0.5560000157356262,
+          0.6100000143051147
+        ]
+      },
+      "bytes": 39043,
+      "sha256": "d4653da867e2ceb85d9573e4ef462093e35da2b30b9fa6aa42f485d865220541"
+    },
+    {
+      "id": "crystal-beetle",
+      "name": "Crystal Beetle",
+      "model": "crystal-beetle",
+      "category": "fauna",
+      "file": "crystal-beetle.png",
+      "meshes": 11,
+      "triangles": 3328,
+      "bounds": {
+        "min": [
+          -0.6939999961853027,
+          0,
+          -0.9841379523277283
+        ],
+        "max": [
+          0.6939999961853027,
+          0.7310000276565551,
+          0.6100000143051147
+        ]
+      },
+      "bytes": 44184,
+      "sha256": "44f68aecea39f5e089492bfda72462b89ebd9dcdd18f6493ceafe4af2f841d74"
+    },
+    {
+      "id": "cavern-ray",
+      "name": "Cavern Ray",
+      "model": "cave-ray",
+      "category": "fauna",
+      "file": "cavern-ray.png",
+      "meshes": 7,
+      "triangles": 5232,
+      "bounds": {
+        "min": [
+          -2.179999952316284,
+          0,
+          -0.9686304926872253
+        ],
+        "max": [
+          2.179999952316284,
+          0.4686749874055386,
+          2.2070602416992187
+        ]
+      },
+      "bytes": 14029,
+      "sha256": "60db0fa03ec46924c4bc9b8617109d969bb05bf2053e51aa6b691a082566388c"
+    },
+    {
+      "id": "meadow-ray",
+      "name": "Meadow Ray",
+      "model": "sky-ray",
+      "category": "fauna",
+      "file": "meadow-ray.png",
+      "meshes": 7,
+      "triangles": 5232,
+      "bounds": {
+        "min": [
+          -3.2800000953674315,
+          0,
+          -1.2699635028839111
+        ],
+        "max": [
+          3.2800000953674315,
+          0.4884099288284779,
+          3.337071352005005
+        ]
+      },
+      "bytes": 10489,
+      "sha256": "9b6e948cd7370cc7c635ff0eb2598467f1c64ecd8124ef5347099114fb0de604"
+    },
+    {
+      "id": "canopy-swift",
+      "name": "Canopy Swift",
+      "model": "canopy-swift",
+      "category": "fauna",
+      "file": "canopy-swift.png",
+      "meshes": 8,
+      "triangles": 6064,
+      "bounds": {
+        "min": [
+          -0.9273551869392395,
+          0,
+          -0.5400000214576721
+        ],
+        "max": [
+          0.9273551869392395,
+          0.3190490058064461,
+          0.6217662680149079
+        ]
+      },
+      "bytes": 18816,
+      "sha256": "a21ac1a77ec72c5b2914143655b242a580adaff0f1650e1e83650d59e1496cea"
+    },
+    {
+      "id": "suncrest-bird",
+      "name": "Suncrest Bird",
+      "model": "suncrest-bird",
+      "category": "fauna",
+      "file": "suncrest-bird.png",
+      "meshes": 11,
+      "triangles": 7788,
+      "bounds": {
+        "min": [
+          -0.7304724621772766,
+          0,
+          -0.42500001192092896
+        ],
+        "max": [
+          0.7304724621772766,
+          0.6333855259418487,
+          0.4847732210159302
+        ]
+      },
+      "bytes": 26159,
+      "sha256": "37f5d4b57564a03aab88bb0d56dab6c50eb6c1689f63f45d4c8c9c76f2421d5f"
+    },
+    {
+      "id": "reed-heron",
+      "name": "Reed Heron",
+      "model": "reed-heron",
+      "category": "fauna",
+      "file": "reed-heron.png",
+      "meshes": 11,
+      "triangles": 6912,
+      "bounds": {
+        "min": [
+          -1.4054352807998658,
+          0,
+          -0.9200000166893005
+        ],
+        "max": [
+          1.4054352807998658,
+          1.3717669734358788,
+          0.8845316290855407
+        ]
+      },
+      "bytes": 20189,
+      "sha256": "639a1f685ac90b0a0753b96476ce95e4cc0f6f67157e636d93ba455783ce6ec6"
+    },
+    {
+      "id": "ribbon-fish",
+      "name": "Ribbon Fish",
+      "model": "ribbon-fish",
+      "category": "fauna",
+      "file": "ribbon-fish.png",
+      "meshes": 9,
+      "triangles": 2232,
+      "bounds": {
+        "min": [
+          -0.26598465099334717,
+          0,
+          -0.351499996304512
+        ],
+        "max": [
+          0.3325708210468292,
+          0.3886614513397217,
+          0.5229735651493073
+        ]
+      },
+      "bytes": 43830,
+      "sha256": "f1cbe3dfb39cbe3f042f163a83b349683a1fa35c8dcabb295f1912cc8c0355ab"
+    },
+    {
+      "id": "glass-koi",
+      "name": "Glass Koi",
+      "model": "glass-koi",
+      "category": "fauna",
+      "file": "glass-koi.png",
+      "meshes": 10,
+      "triangles": 2800,
+      "bounds": {
+        "min": [
+          -0.379444803237915,
+          0,
+          -0.5234355330467224
+        ],
+        "max": [
+          0.379444803237915,
+          0.5722337812185287,
+          0.6460829184532165
+        ]
+      },
+      "bytes": 46037,
+      "sha256": "d5824d323a2920826d1cec4a34ac32157768a9f7123fffb5fc69602d30441043"
+    },
+    {
+      "id": "lantern-eel",
+      "name": "Lantern Eel",
+      "model": "lantern-eel",
+      "category": "fauna",
+      "file": "lantern-eel.png",
+      "meshes": 6,
+      "triangles": 5472,
+      "bounds": {
+        "min": [
+          -0.09600000083446503,
+          0,
+          -0.6300000017881393
+        ],
+        "max": [
+          0.1492632031440735,
+          0.3505989277362823,
+          0.7473592692613602
+        ]
+      },
+      "bytes": 26072,
+      "sha256": "9457235ee159775b78bf7ac8dbe2677433d30c2b22eb0653567d74ccb4f7b381"
+    }
+  ]
+}

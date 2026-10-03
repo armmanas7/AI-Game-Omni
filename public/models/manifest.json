@@ -1,0 +1,3152 @@
+{
+  "project": "Vesper — An Atlas of Elsewhere",
+  "format": "glTF 2.0 binary (GLB)",
+  "count": 74,
+  "totalBytes": 12512572,
+  "coordinateSystem": "Right-handed, +Y up, metres",
+  "provenance": {
+    "origin": "Original programmatic 3D models authored for this project in TypeScript/Three.js.",
+    "thirdPartyModels": false,
+    "downloadedAssets": false,
+    "textures": false,
+    "generatedRasterSubstitutes": false,
+    "sources": [
+      {
+        "file": "src/models.ts",
+        "sha256": "327211fec244b9cf945147d14aadc60405b99659f41f02dad6c29d67d07d73b4"
+      },
+      {
+        "file": "src/model-kit.ts",
+        "sha256": "f9e9131403b5d0926d974b1c268faf6453d07e875f207523bc4700c707ea4ff9"
+      },
+      {
+        "file": "src/flora-models.ts",
+        "sha256": "0d969a72349f00b7b5c1efee30e74605b7d3af8726a323fb5de6a6734e56122f"
+      },
+      {
+        "file": "src/fauna-models.ts",
+        "sha256": "f0ea06737b78d326d579103fd3736df9ba1b7ef59cb7f73489438ff2226aa899"
+      },
+      {
+        "file": "src/aquatic-avian-models.ts",
+        "sha256": "77d6e40ea56f82010d838e60733ece5fcd2a70a5869bd722face9e87bf333502"
+      },
+      {
+        "file": "src/field-models.ts",
+        "sha256": "230115a8b67e3a900fb85461266e3e2d413333bd70f93ab45b4448e227b243bc"
+      }
+    ],
+    "exporter": "tools/export-models.ts",
+    "generator": "THREE.GLTFExporter",
+    "reuse": "Editable project assets; follow the project owner’s licensing terms when redistributing."
+  },
+  "regeneration": "node --import tsx tools/export-models.ts",
+  "notes": [
+    "Exports contain seed-0 variants. Runtime creates deterministic seeded variants directly from the cached model library.",
+    "All geometry, material properties and mesh transforms are embedded; no texture files or network requests are required.",
+    "World model bounds include the entire visible sculpture and are not collision shapes.",
+    "Scanner aperture faces -Z and its origin is camera-local. Landing pod door faces +Z and its lowest geometry is y=0."
+  ],
+  "assets": [
+    {
+      "id": "canopy-tree",
+      "file": "canopy-tree.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 64408,
+      "sha256": "3210f4f446e79be3b6f7351b526b4d95393f8e4b770bd4cc2ac23f2179750693",
+      "meshes": 6,
+      "renderedPrimitives": 6,
+      "triangles": 1504,
+      "bounds": {
+        "min": [
+          -3.672401,
+          0,
+          -4.033682
+        ],
+        "max": [
+          4.272401,
+          10.613164,
+          4.033682
+        ],
+        "size": [
+          7.944802,
+          10.613164,
+          8.067364
+        ],
+        "radius": 4.329438,
+        "height": 10.613164
+      },
+      "conservativeBounds": {
+        "radius": 4.9,
+        "height": 13.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 6,
+        "renderedPrimitives": 6
+      }
+    },
+    {
+      "id": "ribbon-tree",
+      "file": "ribbon-tree.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 155572,
+      "sha256": "400f76c67e0bcfd6b4e5ce75e071f778ca405ff224b699190606b4970d4e06bb",
+      "meshes": 6,
+      "renderedPrimitives": 6,
+      "triangles": 2196,
+      "bounds": {
+        "min": [
+          -3.739916,
+          0,
+          -2.194798
+        ],
+        "max": [
+          2.579762,
+          11.381722,
+          2.712322
+        ],
+        "size": [
+          6.319678,
+          11.381722,
+          4.90712
+        ],
+        "radius": 4.05653,
+        "height": 11.381722
+      },
+      "conservativeBounds": {
+        "radius": 4.3,
+        "height": 13.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 6,
+        "renderedPrimitives": 6
+      }
+    },
+    {
+      "id": "fan-fern",
+      "file": "fan-fern.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 227396,
+      "sha256": "b29eed0992edb0562f8358daaeb97a0c8274031ae611f6bcc3694b991c25c151",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 2444,
+      "bounds": {
+        "min": [
+          -1.572101,
+          0,
+          -1.452991
+        ],
+        "max": [
+          1.572101,
+          1.7,
+          1.612428
+        ],
+        "size": [
+          3.144203,
+          1.7,
+          3.065419
+        ],
+        "radius": 1.612428,
+        "height": 1.7
+      },
+      "conservativeBounds": {
+        "radius": 1.7,
+        "height": 2.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "reed",
+      "file": "reed.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 197848,
+      "sha256": "582d0d450044e9a466436f7286b5a8adf174a4117ab42789dd1bface4d08a047",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 2020,
+      "bounds": {
+        "min": [
+          -0.339365,
+          0,
+          -0.304156
+        ],
+        "max": [
+          0.465,
+          2.883984,
+          0.842829
+        ],
+        "size": [
+          0.804365,
+          2.883984,
+          1.146985
+        ],
+        "radius": 0.875912,
+        "height": 2.883984
+      },
+      "conservativeBounds": {
+        "radius": 1,
+        "height": 3.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "desert-spire",
+      "file": "desert-spire.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 14348,
+      "sha256": "1ae4d2c7a4f1d4d3e0619be0b923c763d755e355a45013f2a628d429072edfab",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 300,
+      "bounds": {
+        "min": [
+          -0.988357,
+          0,
+          -0.723053
+        ],
+        "max": [
+          0.991518,
+          8.179057,
+          0.723053
+        ],
+        "size": [
+          1.979875,
+          8.179057,
+          1.446106
+        ],
+        "radius": 0.998734,
+        "height": 8.179057
+      },
+      "conservativeBounds": {
+        "radius": 1.5,
+        "height": 8.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "arch-rock",
+      "file": "arch-rock.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 20136,
+      "sha256": "6f2ebe5cc1b97f778cf67fb338c0742f078ad2234dac3e0e9b3720b60e5c3928",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 508,
+      "bounds": {
+        "min": [
+          -3.315586,
+          0,
+          -0.850651
+        ],
+        "max": [
+          3.480521,
+          4.954287,
+          0.850651
+        ],
+        "size": [
+          6.796106,
+          4.954287,
+          1.701302
+        ],
+        "radius": 3.512535,
+        "height": 4.954287
+      },
+      "conservativeBounds": {
+        "radius": 3.9,
+        "height": 5.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "dune-rock",
+      "file": "dune-rock.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 4684,
+      "sha256": "35343b59c0f17130eea829a41735355bc26486710152f761f075a0c93e30e415",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 60,
+      "bounds": {
+        "min": [
+          -1.716044,
+          0,
+          -1.403795
+        ],
+        "max": [
+          1.716044,
+          2.012792,
+          1.403795
+        ],
+        "size": [
+          3.432087,
+          2.012792,
+          2.80759
+        ],
+        "radius": 1.842577,
+        "height": 2.012792
+      },
+      "conservativeBounds": {
+        "radius": 2.4,
+        "height": 2.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "crystal-cluster",
+      "file": "crystal-cluster.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 15008,
+      "sha256": "917035080cfe42d6db606c1a635c83de8b64eedb67d992b0705c56f6126a06ef",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 148,
+      "bounds": {
+        "min": [
+          -1.479615,
+          0,
+          -1.021083
+        ],
+        "max": [
+          1.463701,
+          4.084982,
+          1.056105
+        ],
+        "size": [
+          2.943316,
+          4.084982,
+          2.077188
+        ],
+        "radius": 1.701926,
+        "height": 4.084982
+      },
+      "conservativeBounds": {
+        "radius": 1.8,
+        "height": 4.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "cave-column",
+      "file": "cave-column.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 22876,
+      "sha256": "389da711bd75fe410ee2cbfcdf2c80012aa6826f116a16cbfb91784568088155",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 498,
+      "bounds": {
+        "min": [
+          -1.063313,
+          0,
+          -0.935716
+        ],
+        "max": [
+          1.475231,
+          8.806293,
+          0.935716
+        ],
+        "size": [
+          2.538544,
+          8.806293,
+          1.871432
+        ],
+        "radius": 1.322192,
+        "height": 8.806293
+      },
+      "conservativeBounds": {
+        "radius": 1.6,
+        "height": 10.1
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "ruin-arch",
+      "file": "ruin-arch.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 31144,
+      "sha256": "ec7ee778801202e3f1875c9d3ff33ccf9dd69f64533437f1a6544ad8988c2f84",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 556,
+      "bounds": {
+        "min": [
+          -1.984871,
+          0,
+          -0.595456
+        ],
+        "max": [
+          1.984871,
+          3.631278,
+          0.595456
+        ],
+        "size": [
+          3.969742,
+          3.631278,
+          1.190911
+        ],
+        "radius": 2.018699,
+        "height": 3.631278
+      },
+      "conservativeBounds": {
+        "radius": 2.3,
+        "height": 3.9
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "ruin-ring",
+      "file": "ruin-ring.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 33580,
+      "sha256": "e8f7bcecf65cc9f133b1440f17356be1033903dbdab2c441dc2cebb5ea6248d4",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 936,
+      "bounds": {
+        "min": [
+          -1.867289,
+          0,
+          -0.7
+        ],
+        "max": [
+          1.865892,
+          3.874277,
+          0.7
+        ],
+        "size": [
+          3.733181,
+          3.874277,
+          1.4
+        ],
+        "radius": 1.579912,
+        "height": 3.874277
+      },
+      "conservativeBounds": {
+        "radius": 2.2,
+        "height": 4.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "lantern-bloom",
+      "file": "lantern-bloom.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 203852,
+      "sha256": "8549886d18320a73aeb34f5147a7cfba743f93a13ecbbf77427ef9ef9d9f7961",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 2640,
+      "bounds": {
+        "min": [
+          -0.750535,
+          0,
+          -0.770919
+        ],
+        "max": [
+          0.841618,
+          2.441683,
+          0.830319
+        ],
+        "size": [
+          1.592153,
+          2.441683,
+          1.601238
+        ],
+        "radius": 0.847069,
+        "height": 2.441683
+      },
+      "conservativeBounds": {
+        "radius": 1.1,
+        "height": 2.7
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "spore-crown",
+      "file": "spore-crown.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 140068,
+      "sha256": "695bb58221e9328a1f5ff362655f9072a434935e2cb3fbc509bd7687e6e61c73",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 1892,
+      "bounds": {
+        "min": [
+          -0.85826,
+          0,
+          -0.8715
+        ],
+        "max": [
+          0.85826,
+          2.36613,
+          0.8715
+        ],
+        "size": [
+          1.71652,
+          2.36613,
+          1.743
+        ],
+        "radius": 0.8715,
+        "height": 2.36613
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 2.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "prism-fern",
+      "file": "prism-fern.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 37612,
+      "sha256": "446b67bb8b515d282580739e98c97bffe2705978371eff89deaf0ef2f4d13c01",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 628,
+      "bounds": {
+        "min": [
+          -0.688504,
+          0,
+          -0.781225
+        ],
+        "max": [
+          0.688504,
+          2.40565,
+          0.659113
+        ],
+        "size": [
+          1.377008,
+          2.40565,
+          1.440338
+        ],
+        "radius": 0.781226,
+        "height": 2.40565
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 2.6
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "glass-cactus",
+      "file": "glass-cactus.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 218788,
+      "sha256": "85f84e6bd004bce8d3ce43aca6e5b860e8150e115c7065acca9670b3fbe5f924",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 2248,
+      "bounds": {
+        "min": [
+          -0.73,
+          0,
+          -0.323247
+        ],
+        "max": [
+          0.68,
+          2.664611,
+          0.323247
+        ],
+        "size": [
+          1.41,
+          2.664611,
+          0.646495
+        ],
+        "radius": 0.73,
+        "height": 2.664611
+      },
+      "conservativeBounds": {
+        "radius": 1.1,
+        "height": 3
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "sun-stone",
+      "file": "sun-stone.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 18648,
+      "sha256": "fca7ae675a5782c2b6fbc32cf1fbe849df2e80aa671848b4e264f61f1d476692",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 456,
+      "bounds": {
+        "min": [
+          -0.904446,
+          0,
+          -0.710846
+        ],
+        "max": [
+          0.904446,
+          1.788955,
+          0.710846
+        ],
+        "size": [
+          1.808892,
+          1.788955,
+          1.421691
+        ],
+        "radius": 0.664021,
+        "height": 1.788955
+      },
+      "conservativeBounds": {
+        "radius": 1,
+        "height": 2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "sand-rose",
+      "file": "sand-rose.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 424960,
+      "sha256": "cefa07c9340a6e024d50955cbe16983696c9c1d60af699566994e24627402080",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 4500,
+      "bounds": {
+        "min": [
+          -0.976946,
+          0,
+          -0.932336
+        ],
+        "max": [
+          0.976946,
+          0.92,
+          0.991931
+        ],
+        "size": [
+          1.953892,
+          0.92,
+          1.924267
+        ],
+        "radius": 0.991931,
+        "height": 0.92
+      },
+      "conservativeBounds": {
+        "radius": 1.3,
+        "height": 1.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "echo-crystal",
+      "file": "echo-crystal.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 19256,
+      "sha256": "31ce950ea1c408bd221f5c5f8587034f725f494433e0e5e5439f4634f7441f3a",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 852,
+      "bounds": {
+        "min": [
+          -0.745495,
+          0,
+          -0.633571
+        ],
+        "max": [
+          0.633648,
+          2.631981,
+          0.633571
+        ],
+        "size": [
+          1.379143,
+          2.631981,
+          1.267141
+        ],
+        "radius": 0.690491,
+        "height": 2.631981
+      },
+      "conservativeBounds": {
+        "radius": 1,
+        "height": 2.9
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "cave-coral",
+      "file": "cave-coral.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 125100,
+      "sha256": "441db12f43c6456708ef8e158d6a7cc5184f3be996e01e5de2f762409a8ac956",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1532,
+      "bounds": {
+        "min": [
+          -0.756312,
+          0,
+          -0.85574
+        ],
+        "max": [
+          0.89,
+          2.292728,
+          0.85574
+        ],
+        "size": [
+          1.646312,
+          2.292728,
+          1.711479
+        ],
+        "radius": 0.89,
+        "height": 2.292728
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 2.7
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "memory-shard",
+      "file": "memory-shard.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 19548,
+      "sha256": "d1591a598662c204886f4416c5032081a4f4e7a84c2556066855425cb30bfcb2",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 452,
+      "bounds": {
+        "min": [
+          -0.415692,
+          0,
+          -0.48
+        ],
+        "max": [
+          0.49364,
+          2.640156,
+          0.48
+        ],
+        "size": [
+          0.909332,
+          2.640156,
+          0.96
+        ],
+        "radius": 0.48,
+        "height": 2.640156
+      },
+      "conservativeBounds": {
+        "radius": 0.8,
+        "height": 2.9
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "moth",
+      "file": "moth.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 52368,
+      "sha256": "74827078718a48cf9e96da10e7d12d98798d365dbce5561564691b17c3f11d7e",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 976,
+      "bounds": {
+        "min": [
+          -0.940157,
+          0,
+          -0.237909
+        ],
+        "max": [
+          0.940157,
+          1.363201,
+          0.609331
+        ],
+        "size": [
+          1.880313,
+          1.363201,
+          0.84724
+        ],
+        "radius": 0.852512,
+        "height": 1.363201
+      },
+      "conservativeBounds": {
+        "radius": 0.9,
+        "height": 1.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "survey-monolith",
+      "file": "survey-monolith.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 26172,
+      "sha256": "30093a4f2b5d236f5248883badd30d221a8eb1600304b55a2eb755817892d947",
+      "meshes": 6,
+      "renderedPrimitives": 6,
+      "triangles": 660,
+      "bounds": {
+        "min": [
+          -0.6755,
+          0,
+          -0.7
+        ],
+        "max": [
+          0.6755,
+          3.2885,
+          0.7
+        ],
+        "size": [
+          1.351,
+          3.2885,
+          1.4
+        ],
+        "radius": 0.760789,
+        "height": 3.2885
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 3.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 6,
+        "renderedPrimitives": 6
+      }
+    },
+    {
+      "id": "heartwood",
+      "file": "heartwood.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 292928,
+      "sha256": "9e6b28438dbb688c2482c470896b51e59aa25b2cec6b8bc46610c7b342ebfe00",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 3384,
+      "bounds": {
+        "min": [
+          -0.96943,
+          0,
+          -0.865416
+        ],
+        "max": [
+          0.96943,
+          2.695553,
+          0.865416
+        ],
+        "size": [
+          1.938859,
+          2.695553,
+          1.730833
+        ],
+        "radius": 0.96966,
+        "height": 2.695553
+      },
+      "conservativeBounds": {
+        "radius": 1.4,
+        "height": 3.1
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "sun-dial",
+      "file": "sun-dial.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 34084,
+      "sha256": "95f031a5c82f30b9161bbc4667c243dbf14156beaf7e7acbf707372bd8f829b6",
+      "meshes": 5,
+      "renderedPrimitives": 5,
+      "triangles": 656,
+      "bounds": {
+        "min": [
+          -1.18,
+          0,
+          -1.18
+        ],
+        "max": [
+          1.18,
+          2.541278,
+          1.18
+        ],
+        "size": [
+          2.36,
+          2.541278,
+          2.36
+        ],
+        "radius": 1.18,
+        "height": 2.541278
+      },
+      "conservativeBounds": {
+        "radius": 1.6,
+        "height": 2.9
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 5,
+        "renderedPrimitives": 5
+      }
+    },
+    {
+      "id": "harmonic-core",
+      "file": "harmonic-core.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 21432,
+      "sha256": "1753631c7fc5c6e128afb734fe31d751aca0c40f5dfd15767e3aa5c295c8dc78",
+      "meshes": 6,
+      "renderedPrimitives": 6,
+      "triangles": 1244,
+      "bounds": {
+        "min": [
+          -1.217875,
+          0,
+          -1.2685
+        ],
+        "max": [
+          1.217875,
+          2.806531,
+          1.2685
+        ],
+        "size": [
+          2.43575,
+          2.806531,
+          2.537
+        ],
+        "radius": 1.2685,
+        "height": 2.806531
+      },
+      "conservativeBounds": {
+        "radius": 1.5,
+        "height": 3.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 6,
+        "renderedPrimitives": 6
+      }
+    },
+    {
+      "id": "spire-pine",
+      "file": "spire-pine.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 133896,
+      "sha256": "18f9070e8916b5d26783f92eb48b664d7fcd1e7ad43e4ba9701030504c6398b5",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 1354,
+      "bounds": {
+        "min": [
+          -2.456571,
+          0,
+          -2.319289
+        ],
+        "max": [
+          2.514567,
+          9.749372,
+          2.527968
+        ],
+        "size": [
+          4.971138,
+          9.749372,
+          4.847257
+        ],
+        "radius": 2.582483,
+        "height": 9.749372
+      },
+      "conservativeBounds": {
+        "radius": 3.5,
+        "height": 12
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "silver-birch",
+      "file": "silver-birch.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 153780,
+      "sha256": "19ea0053563d47baf85c6abaca2a064687e26451968d70d179650371d2f50a1a",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1548,
+      "bounds": {
+        "min": [
+          -4.007375,
+          0,
+          -3.825248
+        ],
+        "max": [
+          3.568847,
+          9.200013,
+          3.657147
+        ],
+        "size": [
+          7.576222,
+          9.200013,
+          7.482395
+        ],
+        "radius": 4.122965,
+        "height": 9.200013
+      },
+      "conservativeBounds": {
+        "radius": 5.8,
+        "height": 11.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "veil-willow",
+      "file": "veil-willow.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 332836,
+      "sha256": "0b6c84bfe98be0ff3290d527c54054edecef4b78b76184c915634e38dc80b814",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 3416,
+      "bounds": {
+        "min": [
+          -4.150817,
+          0,
+          -4.07437
+        ],
+        "max": [
+          4.087482,
+          7.032239,
+          4.013068
+        ],
+        "size": [
+          8.238299,
+          7.032239,
+          8.087438
+        ],
+        "radius": 4.264463,
+        "height": 7.032239
+      },
+      "conservativeBounds": {
+        "radius": 6.2,
+        "height": 10
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "coral-tree",
+      "file": "coral-tree.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 236772,
+      "sha256": "9fd27b701c366381b51dbf4d87439b07eebbf9149a476e15a605f0a73e1453ff",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 2424,
+      "bounds": {
+        "min": [
+          -3.775193,
+          0,
+          -3.680414
+        ],
+        "max": [
+          3.511297,
+          7.403053,
+          3.379279
+        ],
+        "size": [
+          7.28649,
+          7.403053,
+          7.059693
+        ],
+        "radius": 3.791319,
+        "height": 7.403053
+      },
+      "conservativeBounds": {
+        "radius": 4.8,
+        "height": 9.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "baobab-tree",
+      "file": "baobab-tree.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 217064,
+      "sha256": "93b396c7b28ce72d3e5b43f7d58ece2fe26c476f9c0a25d099d7d6b49f1651db",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 2208,
+      "bounds": {
+        "min": [
+          -4.762051,
+          0,
+          -4.957075
+        ],
+        "max": [
+          4.999343,
+          9.436697,
+          4.874822
+        ],
+        "size": [
+          9.761394,
+          9.436697,
+          9.831896
+        ],
+        "radius": 5.196311,
+        "height": 9.436697
+      },
+      "conservativeBounds": {
+        "radius": 6,
+        "height": 11
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "spiral-tree",
+      "file": "spiral-tree.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 244660,
+      "sha256": "bb64b86276a85eb5ad9ae6dab0a65cde050afacc663b4e00565977610a7bf22d",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 2496,
+      "bounds": {
+        "min": [
+          -2.299038,
+          0,
+          -2.239848
+        ],
+        "max": [
+          2.076517,
+          8.928478,
+          2.243224
+        ],
+        "size": [
+          4.375555,
+          8.928478,
+          4.483072
+        ],
+        "radius": 2.732954,
+        "height": 8.928478
+      },
+      "conservativeBounds": {
+        "radius": 3.5,
+        "height": 11.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "tree-fern",
+      "file": "tree-fern.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 262872,
+      "sha256": "6e8a842475f8ec9bafdd9dfd6bd3b1820b92375648fc881b656f20202ceeeccf",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 2688,
+      "bounds": {
+        "min": [
+          -3.122494,
+          0,
+          -3.122494
+        ],
+        "max": [
+          3.122494,
+          5.309957,
+          3.122494
+        ],
+        "size": [
+          6.244987,
+          5.309957,
+          6.244987
+        ],
+        "radius": 3.122494,
+        "height": 5.309957
+      },
+      "conservativeBounds": {
+        "radius": 4.2,
+        "height": 7.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "fan-palm",
+      "file": "fan-palm.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 394312,
+      "sha256": "15133af20d572c7eaa74f5de630d35bf04426bb8a8dd39e9d83f966ceabfcf07",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 4056,
+      "bounds": {
+        "min": [
+          -2.291993,
+          0,
+          -2.817691
+        ],
+        "max": [
+          3.791993,
+          8.404611,
+          3.057691
+        ],
+        "size": [
+          6.083985,
+          8.404611,
+          5.875381
+        ],
+        "radius": 3.808111,
+        "height": 8.404611
+      },
+      "conservativeBounds": {
+        "radius": 4.2,
+        "height": 10.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "starflower",
+      "file": "starflower.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 77980,
+      "sha256": "7f39a7019f3c106f461377e2b3f065ea99345dd353a8e8ef434c2fb0790f9b52",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 760,
+      "bounds": {
+        "min": [
+          -0.542819,
+          0,
+          -0.668304
+        ],
+        "max": [
+          0.679733,
+          1.303069,
+          0.668304
+        ],
+        "size": [
+          1.222551,
+          1.303069,
+          1.336609
+        ],
+        "radius": 0.756593,
+        "height": 1.303069
+      },
+      "conservativeBounds": {
+        "radius": 1.1,
+        "height": 1.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "bellflower",
+      "file": "bellflower.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 137892,
+      "sha256": "8a9dc06cf59f650f3d0b3f3ebac667f2e3dbd05232b3e222cd2f66f1ddf6c6c9",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1384,
+      "bounds": {
+        "min": [
+          -0.749265,
+          0,
+          -0.749265
+        ],
+        "max": [
+          0.749265,
+          1.742381,
+          0.749265
+        ],
+        "size": [
+          1.498531,
+          1.742381,
+          1.498531
+        ],
+        "radius": 0.749265,
+        "height": 1.742381
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 2.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "orchid",
+      "file": "orchid.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 129440,
+      "sha256": "349075b9644a0960f7c7f2a68955640b144758134323ff7b29c367ae25f4b534",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1296,
+      "bounds": {
+        "min": [
+          -0.706324,
+          0,
+          -0.555503
+        ],
+        "max": [
+          0.857931,
+          2.00966,
+          0.789385
+        ],
+        "size": [
+          1.564255,
+          2.00966,
+          1.344888
+        ],
+        "radius": 0.909867,
+        "height": 2.00966
+      },
+      "conservativeBounds": {
+        "radius": 1.1,
+        "height": 2.1
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "sunburst-flower",
+      "file": "sunburst-flower.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 148256,
+      "sha256": "42f248d08efe5f1a613a1f33b7ea2527684f19092eba920345c482bcbf189137",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1492,
+      "bounds": {
+        "min": [
+          -0.728473,
+          0,
+          -0.754804
+        ],
+        "max": [
+          0.828473,
+          1.913279,
+          0.786327
+        ],
+        "size": [
+          1.556945,
+          1.913279,
+          1.541131
+        ],
+        "radius": 0.835849,
+        "height": 1.913279
+      },
+      "conservativeBounds": {
+        "radius": 1.3,
+        "height": 2.6
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "lotus",
+      "file": "lotus.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 126996,
+      "sha256": "70a64699dca0614631716a451931b1487a45264f6b25a4c5ba84c0e6319adf31",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1272,
+      "bounds": {
+        "min": [
+          -1,
+          0,
+          -0.919114
+        ],
+        "max": [
+          1,
+          0.83,
+          0.919114
+        ],
+        "size": [
+          2,
+          0.83,
+          1.838228
+        ],
+        "radius": 1,
+        "height": 0.83
+      },
+      "conservativeBounds": {
+        "radius": 1.4,
+        "height": 1.35
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "foxglove",
+      "file": "foxglove.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 154004,
+      "sha256": "7221cdaa96014ee4859f09da21647b2f17ea3152f4beed1d4c5b6cc041c3615b",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1552,
+      "bounds": {
+        "min": [
+          -0.670654,
+          0,
+          -0.774404
+        ],
+        "max": [
+          0.670654,
+          2.351154,
+          0.774404
+        ],
+        "size": [
+          1.341308,
+          2.351154,
+          1.548808
+        ],
+        "radius": 0.774404,
+        "height": 2.351154
+      },
+      "conservativeBounds": {
+        "radius": 1.05,
+        "height": 2.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "berry-bush",
+      "file": "berry-bush.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 112800,
+      "sha256": "28af67812a19654b80e0a78966f5c73720d203e41f797319f9006ce749752348",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1120,
+      "bounds": {
+        "min": [
+          -1.268077,
+          0,
+          -1.373474
+        ],
+        "max": [
+          1.171493,
+          1.913312,
+          1.27909
+        ],
+        "size": [
+          2.43957,
+          1.913312,
+          2.652563
+        ],
+        "radius": 1.416767,
+        "height": 1.913312
+      },
+      "conservativeBounds": {
+        "radius": 1.9,
+        "height": 2.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "cycad",
+      "file": "cycad.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 152776,
+      "sha256": "2ffa80d66f056adc4116c6a40ada3ea26d616e30b56fedb494b99743a2f88c89",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1538,
+      "bounds": {
+        "min": [
+          -1.711968,
+          0,
+          -1.711968
+        ],
+        "max": [
+          1.711968,
+          1.588378,
+          1.711968
+        ],
+        "size": [
+          3.423935,
+          1.588378,
+          3.423935
+        ],
+        "radius": 1.713684,
+        "height": 1.588378
+      },
+      "conservativeBounds": {
+        "radius": 2.2,
+        "height": 2.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "aloe",
+      "file": "aloe.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 141060,
+      "sha256": "3f51956b2a466dd94a3aaf8e8b034b23cc24903d7235f6aad2c12b5219a59752",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1416,
+      "bounds": {
+        "min": [
+          -1.198709,
+          0,
+          -1.198709
+        ],
+        "max": [
+          1.198709,
+          2.132337,
+          1.198709
+        ],
+        "size": [
+          2.397418,
+          2.132337,
+          2.397418
+        ],
+        "radius": 1.198709,
+        "height": 2.132337
+      },
+      "conservativeBounds": {
+        "radius": 1.6,
+        "height": 2.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "barrel-cactus",
+      "file": "barrel-cactus.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 148244,
+      "sha256": "b944efc045aae28cf6e743f288e1321b1c9f3a84280f2a818b0855bc74db4e25",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1492,
+      "bounds": {
+        "min": [
+          -0.86,
+          0,
+          -0.817909
+        ],
+        "max": [
+          0.86,
+          1.881694,
+          0.817909
+        ],
+        "size": [
+          1.72,
+          1.881694,
+          1.635817
+        ],
+        "radius": 0.86,
+        "height": 1.881694
+      },
+      "conservativeBounds": {
+        "radius": 1.45,
+        "height": 2.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "prickly-pear",
+      "file": "prickly-pear.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 151496,
+      "sha256": "d6dc72c5619efbf34b989fc3eba0536fdf44df72e2e94c9a617b7e11d32ae7d0",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1526,
+      "bounds": {
+        "min": [
+          -1.273587,
+          0,
+          -0.154708
+        ],
+        "max": [
+          1.143305,
+          2.96,
+          0.267141
+        ],
+        "size": [
+          2.416892,
+          2.96,
+          0.421849
+        ],
+        "radius": 1.278083,
+        "height": 2.96
+      },
+      "conservativeBounds": {
+        "radius": 1.7,
+        "height": 3
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "puffball",
+      "file": "puffball.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 141976,
+      "sha256": "d42c5a22024cba2fcd1bf92cf4df18d13ad8b326464bb38f22dea4990a9d2143",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 1440,
+      "bounds": {
+        "min": [
+          -0.69132,
+          0,
+          -0.804369
+        ],
+        "max": [
+          0.619328,
+          1.0056,
+          0.698076
+        ],
+        "size": [
+          1.310648,
+          1.0056,
+          1.502445
+        ],
+        "radius": 0.834566,
+        "height": 1.0056
+      },
+      "conservativeBounds": {
+        "radius": 1.2,
+        "height": 1.3
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "shelf-fungus",
+      "file": "shelf-fungus.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 101756,
+      "sha256": "a67e44ad981093e03f6c9992293f3c50f77a2151802614afacd4a99f55ace9a3",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 1020,
+      "bounds": {
+        "min": [
+          -0.815024,
+          0,
+          -0.919898
+        ],
+        "max": [
+          1.035308,
+          1.870066,
+          0.949514
+        ],
+        "size": [
+          1.850332,
+          1.870066,
+          1.869411
+        ],
+        "radius": 1.035343,
+        "height": 1.870066
+      },
+      "conservativeBounds": {
+        "radius": 1.7,
+        "height": 2.6
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "glowcap",
+      "file": "glowcap.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 106128,
+      "sha256": "34733a464972b50dc2a3af805519605f817bea3c87f3e2229746c3c0ef8a37ba",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 1056,
+      "bounds": {
+        "min": [
+          -0.938698,
+          0,
+          -1.034944
+        ],
+        "max": [
+          0.76,
+          2.022744,
+          0.815068
+        ],
+        "size": [
+          1.698698,
+          2.022744,
+          1.850012
+        ],
+        "radius": 1.058198,
+        "height": 2.022744
+      },
+      "conservativeBounds": {
+        "radius": 1.6,
+        "height": 2.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "grass-tuft",
+      "file": "grass-tuft.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 11168,
+      "sha256": "e3568649c0ab5dd3d9e6bf718d214af45b806d7220d81fb20572aa08140fd917",
+      "meshes": 2,
+      "renderedPrimitives": 2,
+      "triangles": 88,
+      "bounds": {
+        "min": [
+          -0.404673,
+          0,
+          -0.313649
+        ],
+        "max": [
+          0.34085,
+          0.881479,
+          0.323566
+        ],
+        "size": [
+          0.745523,
+          0.881479,
+          0.637215
+        ],
+        "radius": 0.49213,
+        "height": 0.881479
+      },
+      "conservativeBounds": {
+        "radius": 1,
+        "height": 1.15
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 2,
+        "renderedPrimitives": 2
+      }
+    },
+    {
+      "id": "flower-carpet",
+      "file": "flower-carpet.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 59028,
+      "sha256": "0becc5cf1323734c94fbccf768cc9df1b9f21d3977589ffbb1dc8800e75211f8",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 576,
+      "bounds": {
+        "min": [
+          -1.163969,
+          0,
+          -1.321681
+        ],
+        "max": [
+          1.472588,
+          0.40436,
+          1.327048
+        ],
+        "size": [
+          2.636557,
+          0.40436,
+          2.648729
+        ],
+        "radius": 1.628924,
+        "height": 0.40436
+      },
+      "conservativeBounds": {
+        "radius": 2.2,
+        "height": 0.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "fallen-log",
+      "file": "fallen-log.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 77980,
+      "sha256": "bde51830354821bd2d4f4c55bcbe6ee51a47a2f524196c149179947c2551c2d9",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 760,
+      "bounds": {
+        "min": [
+          -2.422,
+          0,
+          -0.554419
+        ],
+        "max": [
+          2.422,
+          1.419396,
+          0.68582
+        ],
+        "size": [
+          4.844,
+          1.419396,
+          1.240238
+        ],
+        "radius": 2.471457,
+        "height": 1.419396
+      },
+      "conservativeBounds": {
+        "radius": 3.3,
+        "height": 1.9
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "lily-pad",
+      "file": "lily-pad.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 71016,
+      "sha256": "2f4ca81052ceb1a54d87dd99f6dee28074b1ceb096a65b539cfabd1c3fad561d",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 688,
+      "bounds": {
+        "min": [
+          -1.116891,
+          0,
+          -0.96
+        ],
+        "max": [
+          1.116891,
+          0.3775,
+          0.945177
+        ],
+        "size": [
+          2.233781,
+          0.3775,
+          1.905177
+        ],
+        "radius": 1.119176,
+        "height": 0.3775
+      },
+      "conservativeBounds": {
+        "radius": 1.5,
+        "height": 0.65
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "boulder-stack",
+      "file": "boulder-stack.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 17584,
+      "sha256": "e967b041f4e684885153405eb41f704b6c4ca0eb7734369e6c01ace90aaec412",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 140,
+      "bounds": {
+        "min": [
+          -1.227282,
+          0,
+          -1.155467
+        ],
+        "max": [
+          1.227282,
+          2.826288,
+          1.221731
+        ],
+        "size": [
+          2.454563,
+          2.826288,
+          2.377198
+        ],
+        "radius": 1.484536,
+        "height": 2.826288
+      },
+      "conservativeBounds": {
+        "radius": 2.5,
+        "height": 4.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "moss-grazer",
+      "file": "moss-grazer.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 442916,
+      "sha256": "9f70702f80e23b4f64d403783d7932f671506a6998b120d1f23833b194090a49",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 5688,
+      "bounds": {
+        "min": [
+          -0.541368,
+          0,
+          -1.01
+        ],
+        "max": [
+          0.541368,
+          1.809672,
+          0.972891
+        ],
+        "size": [
+          1.082736,
+          1.809672,
+          1.982891
+        ],
+        "radius": 1.010536,
+        "height": 1.809672
+      },
+      "conservativeBounds": {
+        "radius": 1.35,
+        "height": 1.85
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "fern-hopper",
+      "file": "fern-hopper.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 279360,
+      "sha256": "429aac23b344b0b98c6f1dd3950c838c2762d669347ef00fe372c92969665653",
+      "meshes": 9,
+      "renderedPrimitives": 9,
+      "triangles": 3392,
+      "bounds": {
+        "min": [
+          -0.503263,
+          0,
+          -0.64
+        ],
+        "max": [
+          0.503263,
+          1.57001,
+          0.7
+        ],
+        "size": [
+          1.006526,
+          1.57001,
+          1.34
+        ],
+        "radius": 0.7,
+        "height": 1.57001
+      },
+      "conservativeBounds": {
+        "radius": 1.05,
+        "height": 1.6
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "shellback",
+      "file": "shellback.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 266352,
+      "sha256": "559dd00202f268414c6d31454fb0a625f5ff6564827a5e076086865fc1678bbc",
+      "meshes": 10,
+      "renderedPrimitives": 10,
+      "triangles": 3696,
+      "bounds": {
+        "min": [
+          -0.71,
+          0,
+          -1.23
+        ],
+        "max": [
+          0.71,
+          0.962,
+          1.18
+        ],
+        "size": [
+          1.42,
+          0.962,
+          2.41
+        ],
+        "radius": 1.23,
+        "height": 0.962
+      },
+      "conservativeBounds": {
+        "radius": 1.45,
+        "height": 1.15
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 10,
+        "renderedPrimitives": 10
+      }
+    },
+    {
+      "id": "glass-stag",
+      "file": "glass-stag.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 267408,
+      "sha256": "a2fde3dced7b19b5dd02ff6d99a4908bfd05b0dedbac3610010b18e75c0fb776",
+      "meshes": 9,
+      "renderedPrimitives": 9,
+      "triangles": 3160,
+      "bounds": {
+        "min": [
+          -0.989669,
+          0,
+          -1.28
+        ],
+        "max": [
+          0.989669,
+          3.440627,
+          1.160026
+        ],
+        "size": [
+          1.979338,
+          3.440627,
+          2.440026
+        ],
+        "radius": 1.28,
+        "height": 3.440627
+      },
+      "conservativeBounds": {
+        "radius": 1.6,
+        "height": 3.65
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "dune-runner",
+      "file": "dune-runner.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 254324,
+      "sha256": "fcfc6b50a6ed718f55077223b20742e4418510203fd6f903a54ee733825e859f",
+      "meshes": 9,
+      "renderedPrimitives": 9,
+      "triangles": 2888,
+      "bounds": {
+        "min": [
+          -0.38,
+          0,
+          -1.03
+        ],
+        "max": [
+          0.38,
+          2.187874,
+          1.583807
+        ],
+        "size": [
+          0.76,
+          2.187874,
+          2.613807
+        ],
+        "radius": 1.573276,
+        "height": 2.187874
+      },
+      "conservativeBounds": {
+        "radius": 1.9,
+        "height": 2.25
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "sand-beetle",
+      "file": "sand-beetle.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 190324,
+      "sha256": "c5fc34159be0df7b059867a8d244d6a1b0ddecc896bb4d12a22815792e9ca4ba",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 2824,
+      "bounds": {
+        "min": [
+          -0.694,
+          0,
+          -0.984138
+        ],
+        "max": [
+          0.694,
+          0.556,
+          0.61
+        ],
+        "size": [
+          1.388,
+          0.556,
+          1.594138
+        ],
+        "radius": 1.017815,
+        "height": 0.556
+      },
+      "conservativeBounds": {
+        "radius": 1.15,
+        "height": 0.7
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "crystal-beetle",
+      "file": "crystal-beetle.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 238800,
+      "sha256": "60723a78a86195540685c221e8184497f0fbc65501d7614cfe737448af0ca0ef",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 3328,
+      "bounds": {
+        "min": [
+          -0.694,
+          0,
+          -0.984138
+        ],
+        "max": [
+          0.694,
+          0.731,
+          0.61
+        ],
+        "size": [
+          1.388,
+          0.731,
+          1.594138
+        ],
+        "radius": 1.017815,
+        "height": 0.731
+      },
+      "conservativeBounds": {
+        "radius": 1.15,
+        "height": 0.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "cave-ray",
+      "file": "cave-ray.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 409416,
+      "sha256": "f986c37189330ec44e2c309aa20b6ee018040d107190cec354fd639862ea70e0",
+      "meshes": 7,
+      "renderedPrimitives": 9,
+      "triangles": 5232,
+      "bounds": {
+        "min": [
+          -2.18,
+          0,
+          -0.96863
+        ],
+        "max": [
+          2.18,
+          0.468675,
+          2.20706
+        ],
+        "size": [
+          4.36,
+          0.468675,
+          3.175691
+        ],
+        "radius": 2.229198,
+        "height": 0.468675
+      },
+      "conservativeBounds": {
+        "radius": 2.65,
+        "height": 0.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "sky-ray",
+      "file": "sky-ray.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 409288,
+      "sha256": "f1d16c906b5527a72dda9daad837d18d5c2c56593f177e3b53ae567eb9340a9a",
+      "meshes": 7,
+      "renderedPrimitives": 9,
+      "triangles": 5232,
+      "bounds": {
+        "min": [
+          -3.28,
+          0,
+          -1.269964
+        ],
+        "max": [
+          3.28,
+          0.48841,
+          3.337071
+        ],
+        "size": [
+          6.56,
+          0.48841,
+          4.607035
+        ],
+        "radius": 3.351791,
+        "height": 0.48841
+      },
+      "conservativeBounds": {
+        "radius": 3.8,
+        "height": 1.15
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "canopy-swift",
+      "file": "canopy-swift.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 590740,
+      "sha256": "9806a35eca3f64e8f49052a854d5f6d6e5a38aa8fd4ea5f61aaf14f692c41b15",
+      "meshes": 8,
+      "renderedPrimitives": 8,
+      "triangles": 6064,
+      "bounds": {
+        "min": [
+          -0.927355,
+          0,
+          -0.54
+        ],
+        "max": [
+          0.927355,
+          0.319049,
+          0.621766
+        ],
+        "size": [
+          1.85471,
+          0.319049,
+          1.161766
+        ],
+        "radius": 1.009042,
+        "height": 0.319049
+      },
+      "conservativeBounds": {
+        "radius": 1.05,
+        "height": 0.65
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 8,
+        "renderedPrimitives": 8
+      }
+    },
+    {
+      "id": "suncrest-bird",
+      "file": "suncrest-bird.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 736520,
+      "sha256": "4d2d3a061442143534c8648604a22e49c97df6b7226134b3efb8f3cf06524b14",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 7788,
+      "bounds": {
+        "min": [
+          -0.730472,
+          0,
+          -0.425
+        ],
+        "max": [
+          0.730472,
+          0.633386,
+          0.484773
+        ],
+        "size": [
+          1.460945,
+          0.633386,
+          0.909773
+        ],
+        "radius": 0.838913,
+        "height": 0.633386
+      },
+      "conservativeBounds": {
+        "radius": 0.9,
+        "height": 0.85
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "reed-heron",
+      "file": "reed-heron.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 636424,
+      "sha256": "16bf552d9e074ff42caf8a6527dcc412aa5169c8dbbe657192208f3f52486a9a",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 6912,
+      "bounds": {
+        "min": [
+          -1.405435,
+          0,
+          -0.92
+        ],
+        "max": [
+          1.405435,
+          1.371767,
+          0.884532
+        ],
+        "size": [
+          2.810871,
+          1.371767,
+          1.804532
+        ],
+        "radius": 1.603399,
+        "height": 1.371767
+      },
+      "conservativeBounds": {
+        "radius": 1.7,
+        "height": 1.85
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "ribbon-fish",
+      "file": "ribbon-fish.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 224676,
+      "sha256": "1c5fce30df30b7d63b54d8d38813c2dbe15e88c720035ab32ce425ba868c9f76",
+      "meshes": 9,
+      "renderedPrimitives": 9,
+      "triangles": 2232,
+      "bounds": {
+        "min": [
+          -0.265985,
+          0,
+          -0.3515
+        ],
+        "max": [
+          0.332571,
+          0.388661,
+          0.522974
+        ],
+        "size": [
+          0.598555,
+          0.388661,
+          0.874474
+        ],
+        "radius": 0.522974,
+        "height": 0.388661
+      },
+      "conservativeBounds": {
+        "radius": 0.65,
+        "height": 0.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 9,
+        "renderedPrimitives": 9
+      }
+    },
+    {
+      "id": "glass-koi",
+      "file": "glass-koi.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 280536,
+      "sha256": "e3eef5a5a638cd38389bee86e323363d944f602cc723e36586ba5bbc5c8bd7d5",
+      "meshes": 10,
+      "renderedPrimitives": 10,
+      "triangles": 2800,
+      "bounds": {
+        "min": [
+          -0.379445,
+          0,
+          -0.523436
+        ],
+        "max": [
+          0.379445,
+          0.572234,
+          0.646083
+        ],
+        "size": [
+          0.75889,
+          0.572234,
+          1.169518
+        ],
+        "radius": 0.646083,
+        "height": 0.572234
+      },
+      "conservativeBounds": {
+        "radius": 0.9,
+        "height": 0.7
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 10,
+        "renderedPrimitives": 10
+      }
+    },
+    {
+      "id": "lantern-eel",
+      "file": "lantern-eel.glb",
+      "category": "world-model",
+      "seed": 0,
+      "bytes": 487920,
+      "sha256": "28cd48082203addc466e228782b32c3f05b9199f631bb4b401861396e6d719c0",
+      "meshes": 6,
+      "renderedPrimitives": 6,
+      "triangles": 5472,
+      "bounds": {
+        "min": [
+          -0.096,
+          0,
+          -0.63
+        ],
+        "max": [
+          0.149263,
+          0.350599,
+          0.747359
+        ],
+        "size": [
+          0.245263,
+          0.350599,
+          1.377359
+        ],
+        "radius": 0.74903,
+        "height": 0.350599
+      },
+      "conservativeBounds": {
+        "radius": 0.85,
+        "height": 0.5
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 6,
+        "renderedPrimitives": 6
+      }
+    },
+    {
+      "id": "scanner",
+      "file": "scanner.glb",
+      "category": "equipment",
+      "seed": null,
+      "bytes": 32024,
+      "sha256": "2f96ed5cfee5f40e09fa3d42fc2ebc5d929286d2ed462c7e1e2ed5ab457c4f3d",
+      "meshes": 11,
+      "renderedPrimitives": 11,
+      "triangles": 956,
+      "bounds": {
+        "min": [
+          -0.090115,
+          -0.14452,
+          -0.18396
+        ],
+        "max": [
+          0.090115,
+          0.065435,
+          0.127515
+        ],
+        "size": [
+          0.18023,
+          0.209955,
+          0.311476
+        ],
+        "radius": 0.181934,
+        "height": 0.209955
+      },
+      "groundNormalized": false,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 11,
+        "renderedPrimitives": 11
+      }
+    },
+    {
+      "id": "landing-pod",
+      "file": "landing-pod.glb",
+      "category": "equipment",
+      "seed": null,
+      "bytes": 50676,
+      "sha256": "39a5bd47c021d954eac458b598fd7ede8f4f540c63823315e91eef95bbab0b31",
+      "meshes": 15,
+      "renderedPrimitives": 15,
+      "triangles": 984,
+      "bounds": {
+        "min": [
+          -1.684716,
+          0,
+          -1.684716
+        ],
+        "max": [
+          1.684716,
+          4.23,
+          1.81
+        ],
+        "size": [
+          3.369432,
+          4.23,
+          3.494716
+        ],
+        "radius": 2.25,
+        "height": 4.23
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 15,
+        "renderedPrimitives": 15
+      }
+    },
+    {
+      "id": "field-cache",
+      "file": "field-cache.glb",
+      "category": "field-tool",
+      "seed": 0,
+      "bytes": 46356,
+      "sha256": "340cc8dfc573dd7a8b732f03460624021c2a2a3eb2bb053a593ea9b4dee16b65",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 456,
+      "bounds": {
+        "min": [
+          -0.645,
+          0,
+          -0.5075
+        ],
+        "max": [
+          0.645,
+          0.946375,
+          0.47
+        ],
+        "size": [
+          1.29,
+          0.946375,
+          0.9775
+        ],
+        "radius": 0.798076,
+        "height": 0.946375
+      },
+      "conservativeBounds": {
+        "radius": 0.85,
+        "height": 1
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "field-resin",
+      "file": "field-resin.glb",
+      "category": "field-tool",
+      "seed": 0,
+      "bytes": 63572,
+      "sha256": "99bb5572c27201785c5a16f697f73f5dc91e6cd281cceb4f337f51cf10e01398",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 620,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.314741
+        ],
+        "max": [
+          0.54,
+          1.740585,
+          0.36
+        ],
+        "size": [
+          1.01,
+          1.740585,
+          0.674741
+        ],
+        "radius": 0.550799,
+        "height": 1.740585
+      },
+      "conservativeBounds": {
+        "radius": 0.7,
+        "height": 1.8
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "field-crystal",
+      "file": "field-crystal.glb",
+      "category": "field-tool",
+      "seed": 0,
+      "bytes": 25128,
+      "sha256": "e08c605c06741e66d38ac4a23e9b87e284882b067fd4b29048d39b136ca0d0a9",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 500,
+      "bounds": {
+        "min": [
+          -0.569983,
+          0,
+          -0.425325
+        ],
+        "max": [
+          0.572752,
+          1.214156,
+          0.425325
+        ],
+        "size": [
+          1.142735,
+          1.214156,
+          0.850651
+        ],
+        "radius": 0.627635,
+        "height": 1.214156
+      },
+      "conservativeBounds": {
+        "radius": 0.8,
+        "height": 1.3
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    },
+    {
+      "id": "field-probe",
+      "file": "field-probe.glb",
+      "category": "field-tool",
+      "seed": 0,
+      "bytes": 39948,
+      "sha256": "e382c1d1858882fdf7e19b8c7952e4570fefddc58c163f1c092da5370dc4c048",
+      "meshes": 4,
+      "renderedPrimitives": 4,
+      "triangles": 388,
+      "bounds": {
+        "min": [
+          -0.407713,
+          0,
+          -0.617237
+        ],
+        "max": [
+          0.705302,
+          2.099341,
+          0.617237
+        ],
+        "size": [
+          1.113015,
+          2.099341,
+          1.234474
+        ],
+        "radius": 0.705302,
+        "height": 2.099341
+      },
+      "conservativeBounds": {
+        "radius": 0.85,
+        "height": 2.2
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 4,
+        "renderedPrimitives": 4
+      }
+    },
+    {
+      "id": "field-beacon",
+      "file": "field-beacon.glb",
+      "category": "field-tool",
+      "seed": 0,
+      "bytes": 74276,
+      "sha256": "394c9d155aabaf7aa417b3c016afa93978128533fc3d12d620323a4e1fd47b71",
+      "meshes": 3,
+      "renderedPrimitives": 3,
+      "triangles": 734,
+      "bounds": {
+        "min": [
+          -0.46225,
+          0,
+          -0.597932
+        ],
+        "max": [
+          0.680864,
+          2.209337,
+          0.597932
+        ],
+        "size": [
+          1.143114,
+          2.209337,
+          1.195864
+        ],
+        "radius": 0.680864,
+        "height": 2.209337
+      },
+      "conservativeBounds": {
+        "radius": 0.85,
+        "height": 2.4
+      },
+      "groundNormalized": true,
+      "verification": {
+        "glbVersion": 2,
+        "binaryHeader": "passed",
+        "savedFileRoundTrip": "passed",
+        "importedMeshes": 3,
+        "renderedPrimitives": 3
+      }
+    }
+  ]
+}

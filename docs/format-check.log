@@ -1,0 +1,6 @@
+
+> vesper-expedition@1.4.0 format:check
+> prettier --check src tests tools playwright.config.ts package.json tsconfig.json index.html
+
+Checking formatting...
+All matched files use Prettier code style!

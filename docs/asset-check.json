@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "compiledFilesMatch": 137,
+  "glbs": 74,
+  "glbBytes": 12512572,
+  "pngs": 60,
+  "pngBytes": 1877602,
+  "rgbaTransparentPortraits": 60,
+  "currentSourceHashChecks": 13,
+  "uniqueSourceFiles": 8,
+  "worldModelFamilies": 67,
+  "fieldModelFamilies": 5,
+  "catalogUniqueModels": 58,
+  "biomeCounts": {
+    "forest": 32,
+    "desert": 16,
+    "caves": 12
+  },
+  "faunaRecords": 17
+}

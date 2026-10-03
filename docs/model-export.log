@@ -1,0 +1,8 @@
+
+> vesper-expedition@1.3.0 models:export
+> node --import tsx tools/export-models.ts
+
+THREE.GLTFExporter: Creating normalized normal attribute from the non-normalized one.
+THREE.GLTFExporter: Creating normalized normal attribute from the non-normalized one.
+THREE.GLTFExporter: Creating normalized normal attribute from the non-normalized one.
+Exported and round-trip verified 74 GLB models (11.93 MiB) to public/models.

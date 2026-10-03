@@ -1,0 +1,596 @@
+
+> vesper-expedition@1.4.0 test
+> node --import tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: six avian/aquatic sculptures have finite, shared geometry and conservative ground-normalized bounds
+ok 1 - six avian/aquatic sculptures have finite, shared geometry and conservative ground-normalized bounds
+  ---
+  duration_ms: 342.744291
+  type: 'test'
+  ...
+# Subtest: birds expose articulated feathered wings and distinct swift, crest and heron anatomy
+ok 2 - birds expose articulated feathered wings and distinct swift, crest and heron anatomy
+  ---
+  duration_ms: 5.995834
+  type: 'test'
+  ...
+# Subtest: fish carry underwater placement hints and correctly centered bodies, fins, tails and luminous eel nodes
+ok 3 - fish carry underwater placement hints and correctly centered bodies, fins, tails and luminous eel nodes
+  ---
+  duration_ms: 0.554417
+  type: 'test'
+  ...
+# Subtest: eel spine is a closed, tapered volume with outward topology
+ok 4 - eel spine is a closed, tapered volume with outward topology
+  ---
+  duration_ms: 0.531709
+  type: 'test'
+  ...
+# Subtest: additional model instances and seed variants reuse cached GPU resources
+ok 5 - additional model instances and seed variants reuse cached GPU resources
+  ---
+  duration_ms: 22.471125
+  type: 'test'
+  ...
+# Subtest: all 60 specimens have Chinese names, subtitles, descriptions and field insights
+ok 6 - all 60 specimens have Chinese names, subtitles, descriptions and field insights
+  ---
+  duration_ms: 1.386625
+  type: 'test'
+  ...
+# Subtest: biomes, habitats, supply items, recipes and interaction target names all have Chinese content
+ok 7 - biomes, habitats, supply items, recipes and interaction target names all have Chinese content
+  ---
+  duration_ms: 0.301208
+  type: 'test'
+  ...
+# Subtest: procedural regions, investigation names and water habitats resolve without changing source world data
+ok 8 - procedural regions, investigation names and water habitats resolve without changing source world data
+  ---
+  duration_ms: 163.845625
+  type: 'test'
+  ...
+# Subtest: touch controls and fieldcraft failures have human-readable Chinese copy
+ok 9 - touch controls and fieldcraft failures have human-readable Chinese copy
+  ---
+  duration_ms: 0.078458
+  type: 'test'
+  ...
+# Subtest: automatic input uses touch capability and respects manual overrides
+ok 10 - automatic input uses touch capability and respects manual overrides
+  ---
+  duration_ms: 0.360708
+  type: 'test'
+  ...
+# Subtest: click-to-move keeps the cursor free, while keyboard mode can lock
+ok 11 - click-to-move keeps the cursor free, while keyboard mode can lock
+  ---
+  duration_ms: 0.094166
+  type: 'test'
+  ...
+# Subtest: joystick supports dead zones, analog travel and bounded diagonal input
+ok 12 - joystick supports dead zones, analog travel and bounded diagonal input
+  ---
+  duration_ms: 0.6
+  type: 'test'
+  ...
+# Subtest: independent pointer identities permit simultaneous movement and looking
+ok 13 - independent pointer identities permit simultaneous movement and looking
+  ---
+  duration_ms: 0.091584
+  type: 'test'
+  ...
+# Subtest: handled touch clicks are suppressed once even when an overlay replaces the released button
+ok 14 - handled touch clicks are suppressed once even when an overlay replaces the released button
+  ---
+  duration_ms: 0.15225
+  type: 'test'
+  ...
+# Subtest: legacy click suppression expires and preserves keyboard and fresh overlay taps
+ok 15 - legacy click suppression expires and preserves keyboard and fresh overlay taps
+  ---
+  duration_ms: 0.053583
+  type: 'test'
+  ...
+# Subtest: nine original creatures have finite geometry, normalized ground contact and conservative bounds
+ok 16 - nine original creatures have finite geometry, normalized ground contact and conservative bounds
+  ---
+  duration_ms: 582.36075
+  type: 'test'
+  ...
+# Subtest: animal anatomy exposes independent hip/wing pivots, instead of generic floating primitives
+ok 17 - animal anatomy exposes independent hip/wing pivots, instead of generic floating primitives
+  ---
+  duration_ms: 0.846542
+  type: 'test'
+  ...
+# Subtest: ray wings have closed volume, correct upper-surface normals, and mirrored anatomy
+ok 18 - ray wings have closed volume, correct upper-surface normals, and mirrored anatomy
+  ---
+  duration_ms: 4.400625
+  type: 'test'
+  ...
+# Subtest: creatures reuse GPU geometry/material resources across arbitrarily many seeds
+ok 19 - creatures reuse GPU geometry/material resources across arbitrarily many seeds
+  ---
+  duration_ms: 48.604416
+  type: 'test'
+  ...
+# Subtest: a field harvest adds supplies once and duplicate interactions never award more
+ok 20 - a field harvest adds supplies once and duplicate interactions never award more
+  ---
+  duration_ms: 0.757542
+  type: 'test'
+  ...
+# Subtest: full backpack rejects the complete harvest without consuming the world deposit
+ok 21 - full backpack rejects the complete harvest without consuming the world deposit
+  ---
+  duration_ms: 0.1265
+  type: 'test'
+  ...
+# Subtest: discarding unwanted alloy frees a full single-material bag without losing a pending resin harvest
+ok 22 - discarding unwanted alloy frees a full single-material bag without losing a pending resin harvest
+  ---
+  duration_ms: 0.111792
+  type: 'test'
+  ...
+# Subtest: crafting is atomic and available ingredients produce exactly one usable item
+ok 23 - crafting is atomic and available ingredients produce exactly one usable item
+  ---
+  duration_ms: 0.107458
+  type: 'test'
+  ...
+# Subtest: probe repair commits its cost once and starter supply choices leave room for a pulse cell
+ok 24 - probe repair commits its cost once and starter supply choices leave room for a pulse cell
+  ---
+  duration_ms: 1.294084
+  type: 'test'
+  ...
+# Subtest: beacon placement and packing never lose an item on rejected or full-bag actions
+ok 25 - beacon placement and packing never lose an item on rejected or full-bag actions
+  ---
+  duration_ms: 0.536
+  type: 'test'
+  ...
+# Subtest: field records stop safely at their bounded limit before awarding loot or consuming repair supplies
+ok 26 - field records stop safely at their bounded limit before awarding loot or consuming repair supplies
+  ---
+  duration_ms: 4.770084
+  type: 'test'
+  ...
+# Subtest: old saves receive a fresh backpack and adaptive settings without losing research or location
+ok 27 - old saves receive a fresh backpack and adaptive settings without losing research or location
+  ---
+  duration_ms: 46.828833
+  type: 'test'
+  ...
+# Subtest: field inventory, collection, repairs and active beacon round-trip with custom controls
+ok 28 - field inventory, collection, repairs and active beacon round-trip with custom controls
+  ---
+  duration_ms: 2.376458
+  type: 'test'
+  ...
+# Subtest: save import rejects impossible backpack counts, duplicate history and invalid new settings
+ok 29 - save import rejects impossible backpack counts, duplicate history and invalid new settings
+  ---
+  duration_ms: 0.916916
+  type: 'test'
+  ...
+# Subtest: field supplies stay deterministic, dry and clear of original onboarding locations
+ok 30 - field supplies stay deterministic, dry and clear of original onboarding locations
+  ---
+  duration_ms: 139.579584
+  type: 'test'
+  ...
+# Subtest: field model library has five distinct grounded sculptures with shared geometry and four-part budgets
+ok 31 - field model library has five distinct grounded sculptures with shared geometry and four-part budgets
+  ---
+  duration_ms: 21.388541
+  type: 'test'
+  ...
+# Subtest: world harvest hides its model, repaired probes retain their shape and streaming stays bounded
+ok 32 - world harvest hides its model, repaired probes retain their shape and streaming stays bounded
+  ---
+  duration_ms: 139.181333
+  type: 'test'
+  ...
+# Subtest: nearby collection can be aimed at naturally and consumed field markers disappear
+ok 33 - nearby collection can be aimed at naturally and consumed field markers disappear
+  ---
+  duration_ms: 15.1155
+  type: 'test'
+  ...
+# Subtest: all27 original flora models have finite normalized geometry and conservative bounds
+ok 34 - all27 original flora models have finite normalized geometry and conservative bounds
+  ---
+  duration_ms: 524.2665
+  type: 'test'
+  ...
+# Subtest: abundant flora respects its GPU triangle budget
+ok 35 - abundant flora respects its GPU triangle budget
+  ---
+  duration_ms: 31.462417
+  type: 'test'
+  ...
+# Subtest: placements reuse at most three sculpted geometry variants per flora kind
+ok 36 - placements reuse at most three sculpted geometry variants per flora kind
+  ---
+  duration_ms: 171.60825
+  type: 'test'
+  ...
+# Subtest: closed groundcover leaves face outward so lighting and backface culling remain correct
+ok 37 - closed groundcover leaves face outward so lighting and backface culling remain correct
+  ---
+  duration_ms: 0.266458
+  type: 'test'
+  ...
+# Subtest: language is a validated save preference and legacy saves default to English
+ok 38 - language is a validated save preference and legacy saves default to English
+  ---
+  duration_ms: 0.891125
+  type: 'test'
+  ...
+# Subtest: English remains the exact source, Chinese preserves quantities and identifiers
+ok 39 - English remains the exact source, Chinese preserves quantities and identifiers
+  ---
+  duration_ms: 1.014084
+  type: 'test'
+  ...
+# Subtest: title language preference survives reload and storage denial is tolerated
+ok 40 - title language preference survives reload and storage denial is tolerated
+  ---
+  duration_ms: 0.136583
+  type: 'test'
+  ...
+# Subtest: deep-water movement keeps the camera above the surface and suppresses sprint and jump
+ok 41 - deep-water movement keeps the camera above the surface and suppresses sprint and jump
+  ---
+  duration_ms: 1.4805
+  type: 'test'
+  ...
+# Subtest: crossing out of water restores walking and gravity while retaining collision checks
+ok 42 - crossing out of water restores walking and gravity while retaining collision checks
+  ---
+  duration_ms: 17.328125
+  type: 'test'
+  ...
+# Subtest: shallow water allows wading and land-style jumping without sprinting
+ok 43 - shallow water allows wading and land-style jumping without sprinting
+  ---
+  duration_ms: 0.429333
+  type: 'test'
+  ...
+# Subtest: analog joystick preserves partial speed and bounds diagonal movement
+ok 44 - analog joystick preserves partial speed and bounds diagonal movement
+  ---
+  duration_ms: 0.902375
+  type: 'test'
+  ...
+# Subtest: click-to-move reaches a bounded destination, smoothly turns and stops
+ok 45 - click-to-move reaches a bounded destination, smoothly turns and stops
+  ---
+  duration_ms: 0.778959
+  type: 'test'
+  ...
+# Subtest: mouse routes stop at a collision and report why, including long frames
+ok 46 - mouse routes stop at a collision and report why, including long frames
+  ---
+  duration_ms: 0.14975
+  type: 'test'
+  ...
+# Subtest: manual movement, teleport and input clearing cancel mouse routes and touch sprint
+ok 47 - manual movement, teleport and input clearing cancel mouse routes and touch sprint
+  ---
+  duration_ms: 22.48875
+  type: 'test'
+  ...
+# Subtest: invalid and distant mouse destinations never initiate movement
+ok 48 - invalid and distant mouse destinations never initiate movement
+  ---
+  duration_ms: 0.151458
+  type: 'test'
+  ...
+# Subtest: scanner selects a centred specimen and excludes hidden or unaligned ones
+ok 49 - scanner selects a centred specimen and excludes hidden or unaligned ones
+  ---
+  duration_ms: 23.863333
+  type: 'test'
+  ...
+# Subtest: aiming at an actual tall canopy selects it rather than demanding its base point
+ok 50 - aiming at an actual tall canopy selects it rather than demanding its base point
+  ---
+  duration_ms: 8.826792
+  type: 'test'
+  ...
+# Subtest: empty space inside a tall conservative envelope is not treated as a specimen
+ok 51 - empty space inside a tall conservative envelope is not treated as a specimen
+  ---
+  duration_ms: 0.668084
+  type: 'test'
+  ...
+# Subtest: a recorded foreground mesh is selected before an unrecorded specimen behind it
+ok 52 - a recorded foreground mesh is selected before an unrecorded specimen behind it
+  ---
+  duration_ms: 6.071334
+  type: 'test'
+  ...
+# Subtest: out of range and occluded candidates remain visible for actionable feedback
+ok 53 - out of range and occluded candidates remain visible for actionable feedback
+  ---
+  duration_ms: 1.075458
+  type: 'test'
+  ...
+# Subtest: range and visibility checks gate recorded and locked targets before scanning
+ok 54 - range and visibility checks gate recorded and locked targets before scanning
+  ---
+  duration_ms: 1.72475
+  type: 'test'
+  ...
+# Subtest: feedback explains landmark dependencies, held scanning, repeat records and scenery
+ok 55 - feedback explains landmark dependencies, held scanning, repeat records and scenery
+  ---
+  duration_ms: 0.188333
+  type: 'test'
+  ...
+# Subtest: only distinct entity scans earn XP or increment specimen count
+ok 56 - only distinct entity scans earn XP or increment specimen count
+  ---
+  duration_ms: 40.979292
+  type: 'test'
+  ...
+# Subtest: two new common specimens grant the first research upgrade
+ok 57 - two new common specimens grant the first research upgrade
+  ---
+  duration_ms: 0.730875
+  type: 'test'
+  ...
+# Subtest: partial site cannot complete; third clue enables one-time completion and landmark scan
+ok 58 - partial site cannot complete; third clue enables one-time completion and landmark scan
+  ---
+  duration_ms: 2.65225
+  type: 'test'
+  ...
+# Subtest: export/import preserves partial and completed investigations, settings and location
+ok 59 - export/import preserves partial and completed investigations, settings and location
+  ---
+  duration_ms: 1.543958
+  type: 'test'
+  ...
+# Subtest: parser rejects malformed, impossible or unsafe save structures
+ok 60 - parser rejects malformed, impossible or unsafe save structures
+  ---
+  duration_ms: 0.394833
+  type: 'test'
+  ...
+# Subtest: parser validates discovery counts against distinct scans
+ok 61 - parser validates discovery counts against distinct scans
+  ---
+  duration_ms: 0.656542
+  type: 'test'
+  ...
+# Subtest: imported coordinates stay within terrain generation bounds with streaming margin
+ok 62 - imported coordinates stay within terrain generation bounds with streaming margin
+  ---
+  duration_ms: 63.440833
+  type: 'test'
+  ...
+# Subtest: local save loads the validated backup after corruption and handles storage denial
+ok 63 - local save loads the validated backup after corruption and handles storage denial
+  ---
+  duration_ms: 5.171083
+  type: 'test'
+  ...
+# Subtest: water meshes clip to real banks, retain upward winding and finite depth/flow attributes
+ok 64 - water meshes clip to real banks, retain upward winding and finite depth/flow attributes
+  ---
+  duration_ms: 134.658208
+  type: 'test'
+  ...
+# Subtest: water surface levels and clipped bank vertices match across chunk seams
+ok 65 - water surface levels and clipped bank vertices match across chunk seams
+  ---
+  duration_ms: 29.003542
+  type: 'test'
+  ...
+# Subtest: chunks share fish-visible water material and reduced motion freezes its shader clock
+ok 66 - chunks share fish-visible water material and reduced motion freezes its shader clock
+  ---
+  duration_ms: 28.209875
+  type: 'test'
+  ...
+# Subtest: home lakes regenerate with real positive water depth and gently sloped edges
+ok 67 - home lakes regenerate with real positive water depth and gently sloped edges
+  ---
+  duration_ms: 442.655
+  type: 'test'
+  ...
+# Subtest: rivers remain continuously wet across chunk seams and preserved investigation routes
+ok 68 - rivers remain continuously wet across chunk seams and preserved investigation routes
+  ---
+  duration_ms: 332.68825
+  type: 'test'
+  ...
+# Subtest: onboarding terrain and complete original investigation areas stay dry
+ok 69 - onboarding terrain and complete original investigation areas stay dry
+  ---
+  duration_ms: 28.4345
+  type: 'test'
+  ...
+# Subtest: regional lakes and oasis pools are seeded, bounded and independent of chunk load order
+ok 70 - regional lakes and oasis pools are seeded, bounded and independent of chunk load order
+  ---
+  duration_ms: 11.9725
+  type: 'test'
+  ...
+# Subtest: land subjects can be rescued to a nearby dry bank without changing their anchor
+ok 71 - land subjects can be rescued to a nearby dry bank without changing their anchor
+  ---
+  duration_ms: 1.452041
+  type: 'test'
+  ...
+# Subtest: an enclosed original outlet retries from inside the lake without breaking its river
+ok 72 - an enclosed original outlet retries from inside the lake without breaking its river
+  ---
+  duration_ms: 18.491875
+  type: 'test'
+  ...
+# Subtest: custom seed rivers either remain connected or safely omit an obstructed outlet
+ok 73 - custom seed rivers either remain connected or safely omit an obstructed outlet
+  ---
+  duration_ms: 1272.1805
+  type: 'test'
+  ...
+# Subtest: wildlife wanders locally on terrain and freezes translation for an observation
+ok 74 - wildlife wanders locally on terrain and freezes translation for an observation
+  ---
+  duration_ms: 39.145792
+  type: 'test'
+  ...
+# Subtest: ground animals do not wander into blocked positions or across biome boundaries
+ok 75 - ground animals do not wander into blocked positions or across biome boundaries
+  ---
+  duration_ms: 3.272917
+  type: 'test'
+  ...
+# Subtest: birds and legacy moths stay above a water surface and within their local flight region
+ok 76 - birds and legacy moths stay above a water surface and within their local flight region
+  ---
+  duration_ms: 63.110875
+  type: 'test'
+  ...
+# Subtest: fish use their real scaled bounds and body centres to remain completely submerged
+ok 77 - fish use their real scaled bounds and body centres to remain completely submerged
+  ---
+  duration_ms: 37.372166
+  type: 'test'
+  ...
+# Subtest: fish turn back before their bodies reach dry banks, shallow shelves or another water body
+ok 78 - fish turn back before their bodies reach dry banks, shallow shelves or another water body
+  ---
+  duration_ms: 80.704042
+  type: 'test'
+  ...
+# Subtest: impossible aquatic placements hide safely and displaced fish recover only to suitable home water
+ok 79 - impossible aquatic placements hide safely and displaced fish recover only to suitable home water
+  ---
+  duration_ms: 0.7295
+  type: 'test'
+  ...
+# Subtest: dt=0 freezes initialized wildlife pose exactly, including swimming, flight and ground fauna
+ok 80 - dt=0 freezes initialized wildlife pose exactly, including swimming, flight and ground fauna
+  ---
+  duration_ms: 0.590458
+  type: 'test'
+  ...
+# Subtest: focused fish and birds hold their observation position, while reduced motion restores static joints
+ok 81 - focused fish and birds hold their observation position, while reduced motion restores static joints
+  ---
+  duration_ms: 1.257166
+  type: 'test'
+  ...
+# Subtest: reduced motion suspends wildlife translation and restores all joint rotations
+ok 82 - reduced motion suspends wildlife translation and restores all joint rotations
+  ---
+  duration_ms: 2.627792
+  type: 'test'
+  ...
+# Subtest: gliding rays stay above their terrain and animate both wing pivots
+ok 83 - gliding rays stay above their terrain and animate both wing pivots
+  ---
+  duration_ms: 0.380375
+  type: 'test'
+  ...
+# Subtest: completed landmarks stay static when reduced motion is enabled
+ok 84 - completed landmarks stay static when reduced motion is enabled
+  ---
+  duration_ms: 251.648958
+  type: 'test'
+  ...
+# Subtest: water additions keep original grounded research subjects accessible on dry banks without changing their identities
+ok 85 - water additions keep original grounded research subjects accessible on dry banks without changing their identities
+  ---
+  duration_ms: 579.529375
+  type: 'test'
+  ...
+# Subtest: expanded catalog retains all original discoveries and adds distinct habitat ecology
+ok 86 - expanded catalog retains all original discoveries and adds distinct habitat ecology
+  ---
+  duration_ms: 0.537958
+  type: 'test'
+  ...
+# Subtest: chunks regenerate deterministically, including negative world coordinates
+ok 87 - chunks regenerate deterministically, including negative world coordinates
+  ---
+  duration_ms: 83.82125
+  type: 'test'
+  ...
+# Subtest: terrain is continuous at boundaries and has a flat safe landing area
+ok 88 - terrain is continuous at boundaries and has a flat safe landing area
+  ---
+  duration_ms: 44.700333
+  type: 'test'
+  ...
+# Subtest: all biomes are reachable within160metres for every tested seed
+ok 89 - all biomes are reachable within160metres for every tested seed
+  ---
+  duration_ms: 0.144791
+  type: 'test'
+  ...
+# Subtest: introductory specimen and three-clue site are guaranteed and locally reachable
+ok 90 - introductory specimen and three-clue site are guaranteed and locally reachable
+  ---
+  duration_ms: 125.284167
+  type: 'test'
+  ...
+# Subtest: sites and entities have globally unique stable IDs across neighboring chunks
+ok 91 - sites and entities have globally unique stable IDs across neighboring chunks
+  ---
+  duration_ms: 67.951041
+  type: 'test'
+  ...
+# Subtest: habitats form coherent patches, respect biomes and guarantee four local forest environments
+ok 92 - habitats form coherent patches, respect biomes and guarantee four local forest environments
+  ---
+  duration_ms: 8.112584
+  type: 'test'
+  ...
+# Subtest: nearby exploration has ten tree silhouettes, varied groundcover and visible animals
+ok 93 - nearby exploration has ten tree silhouettes, varied groundcover and visible animals
+  ---
+  duration_ms: 51.14625
+  type: 'test'
+  ...
+# Subtest: all 60 discoveries are reachable in seeded generation, including all nine new animal forms
+ok 94 - all 60 discoveries are reachable in seeded generation, including all nine new animal forms
+  ---
+  duration_ms: 90.84825
+  type: 'test'
+  ...
+# Subtest: v1 original specimen and clue generation remains exactly compatible
+ok 95 - v1 original specimen and clue generation remains exactly compatible
+  ---
+  duration_ms: 2.297833
+  type: 'test'
+  ...
+# Subtest: fish and birds have separate stable placements with usable aquatic clearance
+ok 96 - fish and birds have separate stable placements with usable aquatic clearance
+  ---
+  duration_ms: 49.092542
+  type: 'test'
+  ...
+# Subtest: new land scenery avoids open water and preserves all original subject data
+ok 97 - new land scenery avoids open water and preserves all original subject data
+  ---
+  duration_ms: 37.236917
+  type: 'test'
+  ...
+1..97
+# tests 97
+# suites 0
+# pass 97
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2826.256708

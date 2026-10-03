@@ -1,0 +1,35 @@
+{
+  "name": "vesper-expedition",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "start": "node tools/serve.mjs dist",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "playwright test",
+    "check": "tsc --noEmit",
+    "models:export": "node --import tsx tools/export-models.ts",
+    "format": "prettier --write src tests tools playwright.config.ts package.json tsconfig.json index.html",
+    "format:check": "prettier --check src tests tools playwright.config.ts package.json tsconfig.json index.html",
+    "specimens:render": "node tools/render-catalog.mjs",
+    "start:mobile": "PORT=4175 node tools/serve.mjs dist --lan"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@phosphor-icons/core": "2.1.1",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.4",
+    "@types/three": "0.186.0",
+    "prettier": "3.9.9",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.2"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "checks": 28,
+  "results": [
+    {
+      "mode": "localhost",
+      "path": "/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "localhost",
+      "path": "/map",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "localhost",
+      "path": "/missing.js",
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "mode": "localhost",
+      "path": "/",
+      "method": "HEAD",
+      "status": 200
+    },
+    {
+      "mode": "localhost",
+      "path": "/",
+      "method": "POST",
+      "status": 405
+    },
+    {
+      "mode": "localhost",
+      "path": "/%2e%2e%2fetc/hosts",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "localhost",
+      "path": "/%00",
+      "method": "GET",
+      "status": 400
+    },
+    {
+      "mode": "localhost",
+      "path": "/%zz",
+      "method": "GET",
+      "status": 400
+    },
+    {
+      "mode": "localhost",
+      "path": "/.env",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "localhost",
+      "path": "/escape.txt",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "localhost",
+      "path": "/model.glb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "localhost",
+      "path": "/font.woff2",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "localhost",
+      "startupMessage": "passed"
+    },
+    {
+      "mode": "localhost",
+      "shutdown": "passed"
+    },
+    {
+      "mode": "lan",
+      "path": "/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "lan",
+      "path": "/map",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "lan",
+      "path": "/missing.js",
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "mode": "lan",
+      "path": "/",
+      "method": "HEAD",
+      "status": 200
+    },
+    {
+      "mode": "lan",
+      "path": "/",
+      "method": "POST",
+      "status": 405
+    },
+    {
+      "mode": "lan",
+      "path": "/%2e%2e%2fetc/hosts",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "lan",
+      "path": "/%00",
+      "method": "GET",
+      "status": 400
+    },
+    {
+      "mode": "lan",
+      "path": "/%zz",
+      "method": "GET",
+      "status": 400
+    },
+    {
+      "mode": "lan",
+      "path": "/.env",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "lan",
+      "path": "/escape.txt",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "mode": "lan",
+      "path": "/model.glb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "lan",
+      "path": "/font.woff2",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "mode": "lan",
+      "startupMessage": "passed"
+    },
+    {
+      "mode": "lan",
+      "shutdown": "passed"
+    }
+  ]
+}

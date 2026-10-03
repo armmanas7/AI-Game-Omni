@@ -1,0 +1,10 @@
+
+Running 3 tests using 1 worker
+
+(node:35510) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/controls.spec.ts:91:1 › desktop mouse movement, free cursor, drag look and control settings persist (7.0s)
+  ✓  2 tests/browser/controls.spec.ts:170:3 › iPhone Chrome touch input › automatic touch controls, simultaneous movement/look, loot, scanning and cancellation (8.3s)
+  ✓  3 tests/browser/controls.spec.ts:315:3 › iPhone Chrome touch input › portrait and landscape bag, map and settings remain usable within the viewport (4.6s)
+
+  3 passed (20.6s)

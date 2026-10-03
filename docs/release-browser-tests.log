@@ -1,0 +1,179 @@
+{
+  "version": "1.4.0",
+  "browser": "153.0.8010.12",
+  "viewport": "1440 × 900",
+  "quality": "balanced",
+  "developerAPIAbsent": true,
+  "bilingualSelectionAndRoundTrip": true,
+  "chineseVisibleCopyAudits": [
+    "journal",
+    "backpack",
+    "map",
+    "help",
+    "settings"
+  ],
+  "firstScan": true,
+  "exportImport": true,
+  "saveResume": true,
+  "externalRequests": [],
+  "failedRequests": [],
+  "errors": [],
+  "regions": [
+    {
+      "biome": "forest",
+      "habitat": "Starpetal Meadows",
+      "position": {
+        "x": 0,
+        "z": 15
+      },
+      "region": "Firstlight Grove",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "forest",
+      "habitat": "The Fernwood",
+      "position": {
+        "x": -48,
+        "z": -12
+      },
+      "region": "Firstlight Grove",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "forest",
+      "habitat": "Veilwillow Grove",
+      "position": {
+        "x": 48,
+        "z": -12
+      },
+      "region": "Firstlight Grove",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.8
+      }
+    },
+    {
+      "biome": "forest",
+      "habitat": "Sporelight Wetlands",
+      "position": {
+        "x": 0,
+        "z": -65
+      },
+      "region": "Firstlight Grove",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "desert",
+      "habitat": "Sunwell Oasis",
+      "position": {
+        "x": -32,
+        "z": -96
+      },
+      "region": "Saffron Basin",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.8
+      }
+    },
+    {
+      "biome": "desert",
+      "habitat": "The Cactus Garden",
+      "position": {
+        "x": 112,
+        "z": 0
+      },
+      "region": "Glass Expanse",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "desert",
+      "habitat": "Ochre Badlands",
+      "position": {
+        "x": 48,
+        "z": -168
+      },
+      "region": "Saffron Basin",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.8
+      }
+    },
+    {
+      "biome": "caves",
+      "habitat": "Prism Gardens",
+      "position": {
+        "x": -48,
+        "z": 112
+      },
+      "region": "Lunar Sanctum",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "caves",
+      "habitat": "The Fungal Hollow",
+      "position": {
+        "x": 0,
+        "z": 112
+      },
+      "region": "Lunar Sanctum",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "caves",
+      "habitat": "Echo Vaults",
+      "position": {
+        "x": 0,
+        "z": 176
+      },
+      "region": "Lunar Sanctum",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.8
+      }
+    },
+    {
+      "biome": "forest",
+      "habitat": "Firstlight Lake · Swimming",
+      "position": {
+        "x": 65,
+        "z": 12
+      },
+      "region": "Firstlight Grove",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    },
+    {
+      "biome": "desert",
+      "habitat": "The Willowrun · Swimming",
+      "position": {
+        "x": 145,
+        "z": 48.28125
+      },
+      "region": "Glass Expanse",
+      "fps": {
+        "mean": 60,
+        "slowFrameMs": 16.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.4.0",
+  "passed": true,
+  "physicalPhoneTested": false,
+  "report": "docs/mobile-check.json",
+  "results": [
+    {
+      "engine": "webkit",
+      "language": "en",
+      "browserVersion": "26.6",
+      "passed": true,
+      "layoutsChecked": 19,
+      "errors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "webkit",
+      "language": "zh-CN",
+      "browserVersion": "26.6",
+      "passed": true,
+      "layoutsChecked": 19,
+      "errors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "language": "en",
+      "browserVersion": "153.0.8010.12",
+      "passed": true,
+      "layoutsChecked": 19,
+      "errors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "language": "zh-CN",
+      "browserVersion": "153.0.8010.12",
+      "passed": true,
+      "layoutsChecked": 19,
+      "errors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    }
+  ]
+}

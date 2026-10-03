@@ -1,0 +1,16 @@
+
+Running 9 tests using 1 worker
+
+(node:35640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/expedition.spec.ts:59:1 › movement, scanning, clue investigation, research and journal form a complete loop (18.5s)
+  ✓  2 tests/browser/expedition.spec.ts:150:1 › all biomes render, moving fauna can be scanned, streamed geometry stays bounded and saves resume (19.7s)
+  ✓  3 tests/browser/expedition.spec.ts:208:1 › settings, accessible map, export/import, reset confirmation and photography work (7.3s)
+  ✓  4 tests/browser/expedition.spec.ts:318:1 › denied browser storage reports the failure and keeps manual export available (2.6s)
+  ✓  5 tests/browser/expedition.spec.ts:345:1 › habitat variety, observable wildlife and actual-model atlas portraits work (10.6s)
+  ✓  6 tests/browser/expedition.spec.ts:421:1 › connected water habitats, swimming, birds, fish scans and lake navigation work (12.5s)
+  ✓  7 tests/browser/fieldcraft.spec.ts:89:1 › real field collection fills the bag once, crafting consumes materials and a pulse cell recharges the sensor (5.2s)
+  ✓  8 tests/browser/fieldcraft.spec.ts:156:1 › probe repairs award XP once and reveal a cache, then a crafted beacon can be deployed, recalled and packed (3.6s)
+  ✓  9 tests/browser/fieldcraft.spec.ts:242:1 › real backpack progress and an active beacon survive reload and exported-save import (4.3s)
+
+  9 passed (1.4m)

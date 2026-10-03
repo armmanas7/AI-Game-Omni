@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vesper specimen portrait renderer</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 384px;
+        height: 384px;
+        overflow: hidden;
+        background: transparent;
+      }
+      canvas {
+        display: block;
+        width: 384px;
+        height: 384px;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module">
+      import * as THREE from "three";
+      import { SPECIES } from "../src/data.ts";
+      import { createModel } from "../src/models.ts";
+
+      const renderer = new THREE.WebGLRenderer({
+        antialias: true,
+        alpha: true,
+        preserveDrawingBuffer: true,
+      });
+      renderer.setSize(384, 384);
+      renderer.setPixelRatio(1);
+      renderer.setClearColor(0x000000, 0);
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
+      renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      renderer.toneMappingExposure = 1.22;
+      document.body.appendChild(renderer.domElement);
+
+      const scene = new THREE.Scene();
+      scene.add(new THREE.HemisphereLight("#fff4dd", "#526c64", 2.0));
+      const key = new THREE.DirectionalLight("#fff4e3", 3.0);
+      key.position.set(-4, 7, -6);
+      scene.add(key);
+      const fill = new THREE.DirectionalLight("#c8e4e8", 0.9);
+      fill.position.set(5, 3, -1);
+      scene.add(fill);
+      const rim = new THREE.DirectionalLight("#e3edcc", 1.6);
+      rim.position.set(0, 5, 5);
+      scene.add(rim);
+
+      const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.01, 1000);
+      const view = new THREE.Vector3(6, 4, -8).normalize();
+      const right = new THREE.Vector3()
+        .crossVectors(new THREE.Vector3(0, 1, 0), view)
+        .normalize();
+      const up = new THREE.Vector3().crossVectors(view, right).normalize();
+      let current = null;
+
+      window.__catalog = {
+        species: SPECIES.map(({ id, name, model, category }) => ({
+          id,
+          name,
+          model,
+          category,
+        })),
+        render(id) {
+          const species = SPECIES.find((s) => s.id === id);
+          if (!species) throw new Error(`Unknown catalog entry: ${id}`);
+          if (current) scene.remove(current);
+          current = createModel(species.model, 8);
+          if (!current.children.length)
+            throw new Error(`Empty model: ${species.model}`);
+          scene.add(current);
+          current.updateMatrixWorld(true);
+          const bounds = new THREE.Box3().setFromObject(current);
+          const centre = bounds.getCenter(new THREE.Vector3());
+          let minX = Infinity,
+            maxX = -Infinity,
+            minY = Infinity,
+            maxY = -Infinity;
+          const point = new THREE.Vector3();
+          current.traverse((part) => {
+            if (!part.isMesh) return;
+            const vertices = part.geometry.getAttribute("position");
+            for (let i = 0; i < vertices.count; i++) {
+              point
+                .fromBufferAttribute(vertices, i)
+                .applyMatrix4(part.matrixWorld)
+                .sub(centre);
+              const x = point.dot(right),
+                y = point.dot(up);
+              minX = Math.min(minX, x);
+              maxX = Math.max(maxX, x);
+              minY = Math.min(minY, y);
+              maxY = Math.max(maxY, y);
+            }
+          });
+          const extent = Math.max(maxX - minX, maxY - minY) * 0.59;
+          if (!Number.isFinite(extent) || extent <= 0)
+            throw new Error(`Invalid geometry: ${species.model}`);
+          const target = centre
+            .clone()
+            .addScaledVector(right, (minX + maxX) * 0.5)
+            .addScaledVector(up, (minY + maxY) * 0.5);
+          camera.left = -extent;
+          camera.right = extent;
+          camera.top = extent;
+          camera.bottom = -extent;
+          camera.position
+            .copy(target)
+            .addScaledVector(view, Math.max(30, extent * 4));
+          camera.lookAt(target);
+          camera.updateProjectionMatrix();
+          renderer.render(scene, camera);
+          return {
+            id,
+            model: species.model,
+            meshes: current.children.length,
+            triangles: renderer.info.render.triangles,
+            bounds: { min: bounds.min.toArray(), max: bounds.max.toArray() },
+          };
+        },
+      };
+    </script>
+  </body>
+</html>
