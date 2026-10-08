@@ -113,7 +113,7 @@ for (const [engine, browserType] of [
         const dismiss = page.locator('[data-action="dismiss-discovery"]');
         if (await dismiss.isVisible()) await dismiss.click();
         if (test.mobile) {
-          await page.locator('[data-touch-action="pause"]').click();
+          await page.locator('.hud-nav [data-open="pause"]').click();
           await page.locator('.pause-screen [data-open="journal"]').click();
         } else await page.keyboard.press("KeyJ");
         const portrait = page.locator(".specimen-portrait");

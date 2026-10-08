@@ -6,6 +6,7 @@ import "@fontsource/manrope/latin-400.css";
 import "@fontsource/manrope/latin-500.css";
 import "@fontsource/manrope/latin-600.css";
 import { HABITATS, SPECIES, SPECIES_BY_ID } from "./data";
+import { TouchClickGuard } from "./controls";
 import { getHabitat, CHUNK_SIZE } from "./systems/worldgen";
 import { getHomeLake, waterAt } from "./systems/waters";
 import { LEVEL_THRESHOLDS } from "./systems/state";
@@ -255,6 +256,65 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
     else action();
   }
 
+  // Menus remain usable while another finger is moving or holding Scan.
+  const hudTouchPointers = new Map<number, HTMLButtonElement>();
+  const hudClickGuard = new TouchClickGuard();
+  document.addEventListener(
+    "pointerdown",
+    (event) => {
+      hudClickGuard.start(event.pointerId, performance.now());
+    },
+    { capture: true },
+  );
+  document.addEventListener(
+    "click",
+    (event) => {
+      if (hudClickGuard.consume(event as PointerEvent, performance.now())) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }
+    },
+    { capture: true },
+  );
+  hud.addEventListener("pointerdown", (event) => {
+    if (
+      event.pointerType !== "touch" ||
+      root.dataset.touch !== "true" ||
+      screen !== "playing"
+    )
+      return;
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>(
+      "button[data-open]",
+    );
+    if (!button || !hud.contains(button)) return;
+    event.preventDefault();
+    hudTouchPointers.set(event.pointerId, button);
+    button.setPointerCapture(event.pointerId);
+  });
+  hud.addEventListener("pointerup", (event) => {
+    const button = hudTouchPointers.get(event.pointerId);
+    if (!button) return;
+    hudTouchPointers.delete(event.pointerId);
+    const rect = button.getBoundingClientRect();
+    if (
+      screen !== "playing" ||
+      event.clientX < rect.left ||
+      event.clientX > rect.right ||
+      event.clientY < rect.top ||
+      event.clientY > rect.bottom
+    )
+      return;
+    hudClickGuard.handled(
+      event.pointerId,
+      event.clientX,
+      event.clientY,
+      performance.now(),
+    );
+    openScreen(button.dataset.open as Screen);
+  });
+  for (const event of ["pointercancel", "lostpointercapture"] as const) {
+    hud.addEventListener(event, (e) => hudTouchPointers.delete(e.pointerId));
+  }
   root.addEventListener("click", (event) => {
     const button = (event.target as HTMLElement).closest<HTMLButtonElement>(
       "button",
@@ -389,6 +449,7 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
         break;
       case "dismiss-discovery":
         discoveryCard.hidden = true;
+        root.classList.remove("has-discovery");
         break;
       case "discovery-journal":
         selectedSpecies = discoveryCard.dataset.species ?? null;
@@ -539,6 +600,7 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
     root.dataset.touch = String(value.touchControls);
     root.dataset.mobile = String(value.mobileDevice);
     root.style.setProperty("--touch-scale", String(value.settings.touchScale));
+    root.dataset.joystickSide = value.settings.joystickSide;
     const discovered = Object.keys(value.discoveries).length;
     const heading = ((((-value.heading * 180) / Math.PI) % 360) + 360) % 360;
     const directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
@@ -1087,6 +1149,13 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
     close.addEventListener("click", () => toast.remove());
     toast.append(mark, copy, close);
     const stack = find(".toast-stack");
+    if (root.dataset.touch === "true") {
+      // Keep the latest error and one informational message, without tall stacks.
+      for (const older of stack.querySelectorAll(".toast")) {
+        if (type === "error" || !older.classList.contains("toast-error"))
+          older.remove();
+      }
+    }
     stack.append(toast);
     while (stack.children.length > 4) stack.firstElementChild?.remove();
     setTimeout(
@@ -1100,6 +1169,7 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
   function showDiscovery(species: SpeciesDef, record: DiscoveryRecord) {
     if (discoveryTimer) clearTimeout(discoveryTimer);
     discoveryCard.hidden = false;
+    root.classList.add("has-discovery");
     discoveryCard.dataset.species = species.id;
     discoveryCard.style.setProperty("--specimen-color", species.color);
     setText(discoveryCard.querySelector("h2"), species.name);
@@ -1115,6 +1185,7 @@ export function createUI(root: HTMLElement, handlers: UIHandlers): GameUI {
     glyph.className = `discovery-glyph ${species.category}`;
     discoveryTimer = setTimeout(() => {
       discoveryCard.hidden = true;
+      root.classList.remove("has-discovery");
     }, 11000);
   }
   document.addEventListener("vesper-languagechange", () => {

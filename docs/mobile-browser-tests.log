@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "passed": true,
   "physicalPhoneTested": false,
   "report": "docs/mobile-check.json",

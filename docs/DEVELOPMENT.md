@@ -87,6 +87,7 @@ npm run check
 npm test
 npm run test:browser
 node tools/verify-mobile.mjs
+node tools/verify-mobile-hud.mjs
 node tools/verify-server.mjs
 node --import tsx tools/export-models.ts
 # With the local Vite development server running on port 4173:

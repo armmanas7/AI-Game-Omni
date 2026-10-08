@@ -21,7 +21,7 @@ async function closeOverlay(page) {
   await visible(page, ".game-hud");
 }
 async function openPause(page) {
-  const control = page.locator('[data-touch-action="pause"]');
+  const control = page.locator('.hud-nav [data-open="pause"]');
   if (await control.isVisible()) await control.tap();
   else await page.locator('.hud-nav [data-open="pause"]').tap();
   await visible(page, 'section[data-screen="pause"]');
@@ -299,11 +299,11 @@ for (const device of mobileDevices.flatMap((device) =>
         viewport.width > viewport.height ? "landscape" : "portrait";
       await page.waitForTimeout(200);
       await layoutCheck(page, `${orientation}: gameplay`, result.layouts);
-      await page.locator('[data-touch-action="backpack"]').tap();
+      await page.locator('.hud-nav [data-open="backpack"]').tap();
       await visible(page, 'section[data-screen="backpack"]');
       await layoutCheck(page, `${orientation}: backpack`, result.layouts);
       await closeOverlay(page);
-      await page.locator('[data-touch-action="map"]').tap();
+      await page.locator('.hud-nav [data-open="map"]').tap();
       await visible(page, 'section[data-screen="map"]');
       await layoutCheck(page, `${orientation}: map`, result.layouts);
       await page.locator('[data-action="clear-waypoint"]').tap();

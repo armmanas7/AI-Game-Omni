@@ -29,7 +29,9 @@ async function begin(page: Page) {
 }
 
 async function pause(page: Page) {
-  await page.locator('.hud-nav [data-open="pause"]').click();
+  if (await page.evaluate(() => !!document.pointerLockElement))
+    await page.keyboard.press("Escape");
+  else await page.locator('.hud-nav [data-open="pause"]').click();
   await expect(page.locator('section[data-screen="pause"]')).toBeVisible();
 }
 
@@ -240,7 +242,7 @@ test.describe("Chinese touch layout", () => {
       { width: 844, height: 390 },
     ]) {
       await page.setViewportSize(viewport);
-      await page.locator('[data-touch-action="pause"]').tap();
+      await page.locator('.hud-nav [data-open="pause"]').tap();
       await expect(page.locator('section[data-screen="pause"]')).toBeVisible();
       for (const screen of ["settings", "help", "backpack", "journal", "map"]) {
         await page
@@ -267,7 +269,7 @@ test.describe("Chinese touch layout", () => {
         expect(sizes.left).toBeGreaterThanOrEqual(-1);
         expect(sizes.right).toBeLessThanOrEqual(sizes.width + 1);
         await close(page);
-        await page.locator('[data-touch-action="pause"]').tap();
+        await page.locator('.hud-nav [data-open="pause"]').tap();
       }
       await close(page);
       if (viewport.width === 844)

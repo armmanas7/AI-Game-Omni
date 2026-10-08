@@ -24,7 +24,7 @@ async function begin(page: Page, chunks: number) {
 }
 
 async function settings(page: Page, touch = false) {
-  if (touch) await page.locator('[data-touch-action="pause"]').tap();
+  if (touch) await page.locator('.hud-nav [data-open="pause"]').tap();
   else await page.keyboard.press("Escape");
   await expect(
     page.getByRole("heading", { name: "Expedition paused", exact: true }),
@@ -244,7 +244,7 @@ test.describe("iPhone Chrome touch input", () => {
       .poll(() => read(page, "window.__VESPER__.snapshot().target?.id"))
       .toBe(intro.id);
     const scan = await center(page, '[data-touch-action="scan"]');
-    const bag = await center(page, '[data-touch-action="backpack"]');
+    const bag = await center(page, '.hud-nav [data-open="backpack"]');
     await touch(session, "touchStart", [{ id: 3, ...scan }]);
     await expect
       .poll(() =>
@@ -284,7 +284,7 @@ test.describe("iPhone Chrome touch input", () => {
     expect(await read(page, "window.__VESPER__.snapshot().touchControls")).toBe(
       false,
     );
-    await page.locator('.hud-nav [data-open="pause"]').tap();
+    await page.keyboard.press("Escape");
     await page.locator('[data-open="settings"]').click();
     await page.locator("#controlScheme").selectOption("auto");
     await page.locator("#joystickSide").selectOption("right");
@@ -323,14 +323,14 @@ test.describe("iPhone Chrome touch input", () => {
       { width: 844, height: 390 },
     ]) {
       await page.setViewportSize(viewport);
-      await page.locator('[data-touch-action="backpack"]').tap();
+      await page.locator('.hud-nav [data-open="backpack"]').tap();
       await expect(
         page.getByRole("heading", { name: "Backpack & field crafting" }),
       ).toBeVisible();
       await noOverflow(page);
       await expect(page.locator(".close-overlay")).toBeInViewport();
       await close(page);
-      await page.locator('[data-touch-action="map"]').tap();
+      await page.locator('.hud-nav [data-open="map"]').tap();
       await expect(
         page.getByRole("heading", { name: "Survey map", exact: true }),
       ).toBeVisible();
@@ -346,7 +346,7 @@ test.describe("iPhone Chrome touch input", () => {
       await page.locator("#volume").fill("0");
       await close(page);
       const buttons = await page
-        .locator(".touch-action")
+        .locator(".touch-action:visible")
         .evaluateAll((elements) =>
           elements.map((element) => {
             const rect = element.getBoundingClientRect();

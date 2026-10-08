@@ -1,0 +1,25 @@
+
+Running 18 tests using 1 worker
+
+(node:63247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/controls.spec.ts:91:1 › desktop mouse movement, free cursor, drag look and control settings persist (7.3s)
+  ✓   2 tests/browser/controls.spec.ts:170:3 › iPhone Chrome touch input › automatic touch controls, simultaneous movement/look, loot, scanning and cancellation (8.4s)
+  ✓   3 tests/browser/controls.spec.ts:315:3 › iPhone Chrome touch input › portrait and landscape bag, map and settings remain usable within the viewport (4.9s)
+  ✓   4 tests/browser/expedition.spec.ts:59:1 › movement, scanning, clue investigation, research and journal form a complete loop (17.8s)
+  ✓   5 tests/browser/expedition.spec.ts:150:1 › all biomes render, moving fauna can be scanned, streamed geometry stays bounded and saves resume (18.7s)
+  ✓   6 tests/browser/expedition.spec.ts:208:1 › settings, accessible map, export/import, reset confirmation and photography work (6.6s)
+  ✓   7 tests/browser/expedition.spec.ts:318:1 › denied browser storage reports the failure and keeps manual export available (2.1s)
+  ✓   8 tests/browser/expedition.spec.ts:345:1 › habitat variety, observable wildlife and actual-model atlas portraits work (10.1s)
+  ✓   9 tests/browser/expedition.spec.ts:421:1 › connected water habitats, swimming, birds, fish scans and lake navigation work (11.5s)
+  ✓  10 tests/browser/fieldcraft.spec.ts:89:1 › real field collection fills the bag once, crafting consumes materials and a pulse cell recharges the sensor (4.6s)
+  ✓  11 tests/browser/fieldcraft.spec.ts:156:1 › probe repairs award XP once and reveal a cache, then a crafted beacon can be deployed, recalled and packed (3.2s)
+  ✓  12 tests/browser/fieldcraft.spec.ts:242:1 › real backpack progress and an active beacon survive reload and exported-save import (4.0s)
+  ✓  13 tests/browser/language.spec.ts:43:1 › title language switch and field guide are reversible without changing the chosen seed (1.4s)
+  ✓  14 tests/browser/language.spec.ts:85:1 › Chinese atlas, backpack, map and settings preserve discoveries and supplies through reload and save import (6.2s)
+  ✓  15 tests/browser/language.spec.ts:226:3 › Chinese touch layout › Chinese controls and overlays fit portrait and landscape (9.2s)
+  ✓  16 tests/browser/scan-clarity.spec.ts:38:1 › landmark dependency is explicit; real E scans three clues and unlocks its finding (10.0s)
+  ✓  17 tests/browser/scan-clarity.spec.ts:120:1 › range and hold instructions explain an incomplete E scan and scanning works after approach (5.0s)
+  ✓  18 tests/browser/scan-clarity.spec.ts:170:1 › E explains F-only supplies, field range and repair material requirements (2.6s)
+
+  18 passed (2.2m)

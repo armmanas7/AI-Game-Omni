@@ -1,3 +1,14 @@
+# Vesper 1.4.1 — compact mobile instruments
+
+- Smaller region labels, objective panels, minimaps and menu headers free more of the scene.
+- Five gameplay buttons occupy two lower rows. Bag, Map and Pause remain in the top navigation, with usable touch targets and support for a second finger while moving or scanning.
+- Compact scan and supply feedback preserves range, clue dependencies and material requirements. Landscape feedback sits between the thumb controls, below the aiming area.
+- Discovery banners retain Open record and Dismiss, with full descriptions in the Atlas. They hide when menus or photo mode open. A banner replaces repeated recorded-state feedback, while new interaction requirements take priority over an older banner.
+- Notification stacks prioritize the latest error and adapt to shorter portrait screens. The mobile vignette is lighter.
+- Control scale, joystick side, languages, saved expeditions and game mechanics remain compatible.
+
+---
+
 # Browser hosting
 
 - The game is publicly playable on GitHub Pages, with adaptive desktop/mobile controls and no account requirement.

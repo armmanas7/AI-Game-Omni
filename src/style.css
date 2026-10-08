@@ -3711,46 +3711,6 @@ html[lang="zh-CN"] .vesper-ui .objective-instrument p {
 .vesper-ui[data-touch="true"] .pointer-hint {
   display: none;
 }
-.vesper-ui[data-touch="true"] .field-instrument,
-.vesper-ui[data-touch="true"] .target-instrument {
-  left: 50%;
-  width: min(330px, calc(100vw - 32px));
-  bottom: calc(
-    210px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 12px
-  );
-  transform: translateX(-50%);
-}
-.vesper-ui[data-touch="true"] .field-action {
-  min-height: 44px;
-}
-.vesper-ui[data-touch="true"].has-field-target .target-instrument {
-  bottom: calc(
-    210px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 175px
-  );
-}
-.vesper-ui[data-touch="true"] .discovery-card {
-  bottom: calc(
-    210px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 12px
-  );
-  width: min(300px, calc(100vw - 32px));
-}
-.vesper-ui[data-touch="true"] .discovery-close,
-.vesper-ui[data-touch="true"] .toast > button {
-  min-width: 44px;
-  min-height: 44px;
-}
-.vesper-ui[data-touch="true"] .discovery-footer button {
-  min-height: 44px;
-}
-.vesper-ui[data-touch="true"] .toast-stack {
-  width: min(290px, calc(100vw - 32px));
-  right: 16px;
-  top: auto;
-  bottom: calc(
-    210px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 12px
-  );
-}
-
 @media (max-width: 600px) {
   .hud-top {
     top: max(12px, env(safe-area-inset-top));
@@ -3996,102 +3956,6 @@ html[lang="zh-CN"] .vesper-ui .objective-instrument p {
   }
 }
 @media (max-height: 550px) and (orientation: landscape) {
-  .vesper-ui[data-touch="true"] .hud-top {
-    top: max(8px, env(safe-area-inset-top));
-    left: max(12px, env(safe-area-inset-left));
-    right: max(12px, env(safe-area-inset-right));
-  }
-  .vesper-ui[data-touch="true"] .location-instrument strong {
-    font-size: 16px;
-  }
-  .vesper-ui[data-touch="true"] .location-instrument > .eyebrow,
-  .vesper-ui[data-touch="true"] .location-instrument .instrument-meta {
-    display: none;
-  }
-  .vesper-ui[data-touch="true"] .location-instrument .habitat-label {
-    font-size: 8px;
-    margin-top: 3px;
-  }
-  .vesper-ui[data-touch="true"] .compass {
-    display: none;
-  }
-  .vesper-ui[data-touch="true"] .hud-nav {
-    gap: 4px;
-  }
-  .vesper-ui[data-touch="true"] .minimap-instrument {
-    width: 102px;
-    top: 66px;
-    right: max(12px, env(safe-area-inset-right));
-    padding: 4px;
-  }
-  .vesper-ui[data-touch="true"] .minimap-heading,
-  .vesper-ui[data-touch="true"] .minimap-footer {
-    display: none;
-  }
-  .vesper-ui[data-touch="true"] .objective-instrument {
-    top: 66px;
-    left: max(12px, env(safe-area-inset-left));
-    width: 180px;
-    padding: 8px;
-  }
-  .vesper-ui[data-touch="true"] .objective-instrument .eyebrow,
-  .vesper-ui[data-touch="true"] .objective-instrument p,
-  .vesper-ui[data-touch="true"] .objective-foot {
-    display: none;
-  }
-  .vesper-ui[data-touch="true"] .objective-instrument h2 {
-    margin: 0;
-    font-size: 11px;
-  }
-  .vesper-ui[data-touch="true"] .waypoint-instrument {
-    top: 60px;
-  }
-  .vesper-ui[data-touch="true"] .field-instrument,
-  .vesper-ui[data-touch="true"] .target-instrument {
-    bottom: calc(
-      126px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 8px
-    );
-    width: min(285px, 40vw);
-    padding: 10px;
-  }
-  .vesper-ui[data-touch="true"] .field-instrument p,
-  .vesper-ui[data-touch="true"] .target-instrument p {
-    display: none;
-  }
-  .vesper-ui[data-touch="true"] .field-instrument h2,
-  .vesper-ui[data-touch="true"] .target-instrument h2 {
-    font-size: 13px;
-    margin: 5px 0;
-  }
-  .vesper-ui[data-touch="true"] .target-prompt,
-  .vesper-ui[data-touch="true"] .field-action {
-    font-size: 9px;
-    min-height: 30px;
-  }
-  .vesper-ui[data-touch="true"].has-field-target .target-instrument {
-    bottom: calc(
-      126px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 121px
-    );
-  }
-  .vesper-ui[data-touch="true"] .toast-stack,
-  .vesper-ui[data-touch="true"] .discovery-card {
-    bottom: calc(
-      126px * var(--touch-scale, 1) + env(safe-area-inset-bottom) + 8px
-    );
-    width: 235px;
-  }
-  .vesper-ui[data-touch="true"] .discovery-card {
-    padding: 15px 15px 0;
-  }
-  .vesper-ui[data-touch="true"] .discovery-title {
-    margin: 12px 0;
-  }
-  .vesper-ui[data-touch="true"] .discovery-title h2 {
-    font-size: 18px;
-  }
-  .vesper-ui[data-touch="true"] .discovery-card > .eyebrow {
-    display: none;
-  }
   .overlay-shell {
     padding: 8px max(8px, env(safe-area-inset-right)) 8px
       max(8px, env(safe-area-inset-left));
@@ -4159,33 +4023,6 @@ html[lang="zh-CN"] .vesper-ui .objective-instrument p {
     display: none;
   }
 }
-@media (orientation: portrait) {
-  .vesper-ui[data-touch="true"][data-screen="playing"] .toast-stack {
-    top: calc(max(12px, env(safe-area-inset-top)) + 260px);
-    bottom: auto;
-    max-height: 142px;
-    overflow: auto;
-    scrollbar-width: none;
-  }
-}
-@media (max-height: 550px) and (orientation: landscape) {
-  .vesper-ui[data-touch="true"][data-screen="playing"] .toast-stack {
-    top: 66px;
-    bottom: auto;
-    right: calc(max(12px, env(safe-area-inset-right)) + 114px);
-    width: 210px;
-    max-height: 82px;
-    overflow: auto;
-    scrollbar-width: none;
-  }
-  .vesper-ui[data-touch="true"] .toast {
-    padding: 10px;
-    gap: 8px;
-  }
-  .vesper-ui[data-touch="true"] .toast p {
-    font-size: 8px;
-  }
-}
 .vesper-ui[data-touch="true"] .photo-instrument button {
   min-height: 44px;
 }
@@ -4227,4 +4064,436 @@ html[lang="zh-CN"] .vesper-ui .objective-instrument p {
   bottom: auto;
   left: max(12px, env(safe-area-inset-left));
   right: max(12px, env(safe-area-inset-right));
+}
+
+/* Compact touch instruments leave the aiming area and thumb controls unobstructed. */
+.vesper-ui[data-touch="true"] {
+  --hud-top: max(8px, env(safe-area-inset-top));
+  --hud-left: max(12px, env(safe-area-inset-left));
+  --hud-right: max(12px, env(safe-area-inset-right));
+  --context-bottom: calc(
+    max(22px, env(safe-area-inset-bottom) + 16px) + 2 *
+      clamp(44px, 48px * var(--touch-scale, 1), 56px) + 24px
+  );
+}
+.vesper-ui[data-touch="true"] .game-hud:before {
+  background:
+    linear-gradient(180deg, rgba(5, 23, 21, 0.5), transparent 130px),
+    linear-gradient(0deg, rgba(5, 23, 21, 0.25), transparent 100px);
+}
+.vesper-ui[data-touch="true"] .hud-top {
+  top: var(--hud-top);
+  left: var(--hud-left);
+  right: var(--hud-right);
+  gap: 8px;
+}
+.vesper-ui[data-touch="true"] .location-instrument {
+  min-width: 0;
+  width: auto;
+  flex: 1;
+}
+.vesper-ui[data-touch="true"] .location-instrument strong {
+  font-size: 15px;
+  line-height: 1.25;
+}
+.vesper-ui[data-touch="true"] .location-instrument .habitat-label {
+  font-size: 11px;
+  line-height: 1.3;
+  margin-top: 3px;
+}
+.vesper-ui[data-touch="true"] .location-instrument > .eyebrow,
+.vesper-ui[data-touch="true"] .location-instrument .instrument-meta,
+.vesper-ui[data-touch="true"] .compass {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .hud-nav {
+  min-width: 0;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.vesper-ui[data-touch="true"] .hud-nav button {
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 1.25;
+  min-height: 44px;
+  min-width: 44px;
+  gap: 0;
+  background: rgba(12, 34, 29, 0.5);
+  border-radius: 8px;
+}
+.vesper-ui[data-touch="true"] .minimap-instrument {
+  top: calc(var(--hud-top) + 52px);
+  right: var(--hud-right);
+  width: 92px;
+  padding: 4px;
+  background: rgba(12, 34, 29, 0.6);
+}
+.vesper-ui[data-touch="true"] .minimap-heading,
+.vesper-ui[data-touch="true"] .minimap-footer {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .objective-instrument {
+  top: calc(var(--hud-top) + 52px);
+  left: var(--hud-left);
+  width: min(250px, calc(100vw - var(--hud-left) - var(--hud-right) - 108px));
+  padding: 4px 8px;
+  border-left: 1px solid var(--line);
+  background: rgba(12, 34, 29, 0.38);
+}
+.vesper-ui[data-touch="true"] .objective-instrument .eyebrow,
+.vesper-ui[data-touch="true"] .objective-foot {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .objective-instrument h2 {
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.vesper-ui[data-touch="true"] .objective-instrument p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.35;
+  max-width: none;
+}
+.vesper-ui[data-touch="true"] .waypoint-instrument {
+  top: calc(var(--hud-top) + 148px);
+  font-size: 11px;
+}
+.vesper-ui[data-touch="true"] .target-instrument,
+.vesper-ui[data-touch="true"] .field-instrument {
+  top: auto;
+  bottom: var(--context-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(300px, calc(100vw - 24px));
+  padding: 8px 10px;
+  background: rgba(12, 34, 29, 0.7);
+  text-align: left;
+}
+.vesper-ui[data-touch="true"] .target-topline .eyebrow,
+.vesper-ui[data-touch="true"] #field-type,
+.vesper-ui[data-touch="true"] .target-instrument p,
+.vesper-ui[data-touch="true"] .field-instrument p {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .target-topline,
+.vesper-ui[data-touch="true"] .field-instrument > div:first-child {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  font-size: 11px;
+}
+.vesper-ui[data-touch="true"] .target-instrument h2,
+.vesper-ui[data-touch="true"] .field-instrument h2 {
+  padding-right: 52px;
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+.vesper-ui[data-touch="true"] .target-prompt {
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+  min-height: 0;
+}
+.vesper-ui[data-touch="true"] .field-action {
+  font-size: 12px;
+  line-height: 1.35;
+  padding: 4px 0;
+  gap: 0;
+  margin: 0;
+  min-height: 44px;
+}
+.vesper-ui[data-touch="true"] .field-action > span:last-child {
+  display: none;
+}
+.vesper-ui[data-touch="true"].has-field-target .objective-instrument {
+  display: none;
+}
+.vesper-ui[data-touch="true"].has-field-target .target-instrument {
+  top: calc(var(--hud-top) + 52px);
+  bottom: auto;
+  left: var(--hud-left);
+  transform: none;
+  width: min(250px, calc(100vw - var(--hud-left) - var(--hud-right) - 108px));
+}
+.vesper-ui[data-touch="true"] .discovery-card {
+  top: calc(var(--hud-top) + 164px);
+  bottom: auto;
+  left: var(--hud-left);
+  right: var(--hud-right);
+  width: auto;
+  padding: 8px 6px 8px 12px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 44px;
+  column-gap: 8px;
+  align-items: center;
+}
+.vesper-ui[data-touch="true"] .discovery-card > .eyebrow {
+  display: block;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+.vesper-ui[data-touch="true"] .discovery-title {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 2px 0 0;
+  min-width: 0;
+}
+.vesper-ui[data-touch="true"] .discovery-title h2 {
+  font-size: 14px;
+  line-height: 1.25;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+.vesper-ui[data-touch="true"] .discovery-glyph,
+.vesper-ui[data-touch="true"] .discovery-title p,
+.vesper-ui[data-touch="true"] .discovery-category,
+.vesper-ui[data-touch="true"] .discovery-card kbd {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .discovery-footer {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  padding: 0;
+  border: 0;
+}
+.vesper-ui[data-touch="true"] .discovery-footer button {
+  font-size: 12px;
+  line-height: 1.25;
+  padding: 0 4px;
+}
+.vesper-ui[data-touch="true"] .discovery-close {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  position: static;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+}
+.vesper-ui[data-touch="true"][data-screen="playing"] .toast-stack {
+  top: calc(var(--hud-top) + 232px);
+  bottom: auto;
+  right: var(--hud-right);
+  width: min(340px, calc(100vw - var(--hud-left) - var(--hud-right)));
+  max-height: min(128px, calc(50dvh - var(--hud-top) - 256px));
+  overflow: auto;
+  scrollbar-width: none;
+}
+.vesper-ui[data-touch="true"] .toast {
+  padding: 8px;
+  gap: 8px;
+}
+.vesper-ui[data-touch="true"] .toast strong,
+.vesper-ui[data-touch="true"] .toast p {
+  font-size: 12px;
+  line-height: 1.35;
+}
+.vesper-ui[data-touch="true"] .toast p {
+  margin-top: 3px;
+}
+.vesper-ui[data-touch="true"] .toast-mark {
+  display: none;
+}
+.vesper-ui[data-touch="true"].has-discovery .toast:not(.toast-error),
+.vesper-ui[data-touch="true"]
+  .toast-stack:has(.toast-error)
+  .toast:not(.toast-error) {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .overlay-header {
+  padding: 8px 12px;
+}
+.vesper-ui[data-touch="true"] .overlay-header h1 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.vesper-ui[data-touch="true"] .overlay-header .eyebrow {
+  display: none;
+}
+.vesper-ui[data-touch="true"] .overlay-body {
+  padding: 12px;
+}
+
+@media (orientation: landscape) and (max-height: 650px) {
+  .vesper-ui[data-touch="true"] {
+    --context-bottom: max(16px, env(safe-area-inset-bottom) + 12px);
+    --context-shift: -36px;
+  }
+  .vesper-ui[data-touch="true"][data-joystick-side="right"] {
+    --context-shift: 36px;
+  }
+  .vesper-ui[data-touch="true"] .minimap-instrument {
+    width: 82px;
+  }
+  .vesper-ui[data-touch="true"] .objective-instrument {
+    width: 200px;
+  }
+  .vesper-ui[data-touch="true"] .objective-instrument p {
+    display: none;
+  }
+  .vesper-ui[data-touch="true"] .objective-instrument h2 {
+    margin: 0;
+  }
+  .vesper-ui[data-touch="true"] .target-instrument,
+  .vesper-ui[data-touch="true"] .field-instrument {
+    width: min(300px, calc(100vw - 348px));
+    left: calc(50% + var(--context-shift));
+  }
+  .vesper-ui[data-touch="true"].has-field-target .target-instrument {
+    left: var(--hud-left);
+    width: min(230px, calc(50vw - 36px));
+  }
+  .vesper-ui[data-touch="true"] .waypoint-instrument {
+    top: calc(var(--hud-top) + 44px);
+  }
+  .vesper-ui[data-touch="true"] .discovery-card {
+    top: calc(var(--hud-top) + 132px);
+    right: auto;
+    width: min(320px, calc(50vw - var(--hud-left) - 28px));
+    grid-template-columns: minmax(0, 1fr) auto 44px;
+    column-gap: 4px;
+  }
+  .vesper-ui[data-touch="true"] .discovery-card > .eyebrow {
+    display: none;
+  }
+  .vesper-ui[data-touch="true"] .discovery-title {
+    grid-row: 1;
+    padding-right: 0;
+  }
+  .vesper-ui[data-touch="true"] .discovery-title h2 {
+    font-size: 13px;
+  }
+  .vesper-ui[data-touch="true"] .discovery-close {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .vesper-ui[data-touch="true"] .discovery-footer {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: flex-start;
+  }
+  .vesper-ui[data-touch="true"] .discovery-footer button {
+    min-height: 44px;
+  }
+  .vesper-ui[data-touch="true"][data-screen="playing"] .toast-stack {
+    top: calc(var(--hud-top) + 52px);
+    right: calc(var(--hud-right) + 96px);
+    width: min(250px, calc(50vw - 148px));
+    max-height: 100px;
+  }
+}
+.vesper-ui[data-touch="true"] .discovery-card.temporarily-hidden {
+  display: none;
+}
+
+/* Short portrait viewports reuse the upper instrument area for feedback. */
+@media (orientation: portrait) and (max-height: 700px) {
+  .vesper-ui[data-touch="true"][data-screen="playing"]:has(.toast)
+    .objective-instrument,
+  .vesper-ui[data-touch="true"].has-discovery .objective-instrument,
+  .vesper-ui[data-touch="true"].has-discovery .minimap-instrument {
+    visibility: hidden;
+  }
+  .vesper-ui[data-touch="true"][data-screen="playing"] .toast-stack {
+    top: calc(var(--hud-top) + 52px);
+    left: var(--hud-left);
+    right: auto;
+    width: calc(100vw - var(--hud-left) - var(--hud-right) - 108px);
+    max-height: 128px;
+  }
+  .vesper-ui[data-touch="true"] .discovery-card {
+    top: calc(var(--hud-top) + 52px);
+  }
+  .vesper-ui[data-touch="true"].has-discovery[data-screen="playing"]
+    .toast-stack {
+    top: calc(var(--hud-top) + 148px);
+    left: var(--hud-left);
+    right: var(--hud-right);
+    width: auto;
+    max-height: max(64px, min(128px, calc(50dvh - var(--hud-top) - 172px)));
+  }
+}
+.vesper-ui[data-touch="true"] .location-instrument strong,
+.vesper-ui[data-touch="true"] .location-instrument .habitat-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vesper-ui[data-touch="true"] .world-vignette {
+  box-shadow: inset 0 0 80px 12px rgba(8, 23, 22, 0.15);
+}
+@media (orientation: portrait) and (max-height: 700px) {
+  .vesper-ui[data-touch="true"].has-discovery[data-screen="playing"]
+    .toast-stack {
+    max-height: 84px;
+  }
+}
+.vesper-ui[data-touch="true"] .location-instrument strong {
+  margin: 0;
+}
+@media (orientation: landscape) and (max-height: 650px) {
+  .vesper-ui[data-touch="true"][data-screen="playing"]:not(
+      .has-field-target
+    ):has(.toast)
+    .objective-instrument {
+    visibility: hidden;
+  }
+  .vesper-ui[data-touch="true"][data-screen="playing"]:not(.has-field-target)
+    .toast-stack {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: min(340px, calc(100vw - 232px));
+    max-height: min(100px, calc(50dvh - var(--hud-top) - 76px));
+  }
+}
+@media (orientation: portrait) and (max-height: 700px) {
+  .vesper-ui[data-touch="true"].has-field-target:has(.toast-error)
+    .minimap-instrument {
+    visibility: hidden;
+  }
+  .vesper-ui[data-touch="true"].has-field-target:has(.toast-error)
+    .target-instrument {
+    width: calc(100vw - var(--hud-left) - var(--hud-right));
+  }
+  .vesper-ui[data-touch="true"].has-field-target[data-screen="playing"]:has(
+      .toast-error
+    )
+    .toast-stack {
+    top: calc(var(--hud-top) + 148px);
+    left: var(--hud-left);
+    right: var(--hud-right);
+    width: auto;
+    max-height: 84px;
+  }
+}
+@media (orientation: landscape) and (max-height: 650px) {
+  .vesper-ui[data-touch="true"] .discovery-card {
+    top: calc(var(--hud-top) + 100px);
+  }
+  .vesper-ui[data-touch="true"].has-discovery[data-screen="playing"]
+    .toast-stack {
+    left: auto;
+    right: calc(var(--hud-right) + 96px);
+    transform: none;
+    width: min(250px, calc(50vw - 148px));
+    max-height: 100px;
+  }
+}
+/* A discovery banner replaces repeated recorded-state feedback. New interaction requirements take priority over an older banner. */
+.vesper-ui[data-touch="true"].has-discovery .target-instrument.is-scanned,
+.vesper-ui[data-touch="true"].has-discovery.has-field-target:has(
+    .target-instrument:not(.is-scanned):not([hidden])
+  )
+  .discovery-card {
+  display: none;
 }

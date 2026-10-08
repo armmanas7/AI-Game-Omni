@@ -1,6 +1,6 @@
 # Vesper — An Atlas of Elsewhere
 
-**Release 1.4.0 — clearer discoveries and English / 简体中文 play.**
+**Release 1.4.1 — compact mobile instruments and English / 简体中文 play.**
 
 [**Play in your browser — desktop and mobile**](https://armmanas7.github.io/AI-Game-Omni/)
 
@@ -10,7 +10,7 @@ No account or installation needed. English and 简体中文 are available. Touch
 
 [简体中文说明](README.zh-CN.md)
 
-[Download the ready-to-play release](https://github.com/armmanas7/AI-Game-Omni/releases/tag/v1.4.0). It includes the compiled game, editable source, models and Mac launchers.
+[Download the ready-to-play release](https://github.com/armmanas7/AI-Game-Omni/releases/tag/v1.4.1). It includes the compiled game, editable source, models and Mac launchers.
 
 A quiet first-person expedition across a stylized alien planet. Catalogue living specimens and minerals, follow clues, and uncover the ecological stories connecting a forest, ochre desert and luminous crystal caverns.
 
@@ -74,7 +74,7 @@ Only one beacon can be active. Return within 5 metres to pack it and reuse it el
 
 ## Play on a phone or tablet
 
-Use the same game in a mobile browser; no device-selection screen is required. Controls appear automatically on touch devices. Use the joystick to move, swipe the world with another finger to look, hold Scan to observe, and use the action buttons for collecting, jumping, running, pulse, bag, map and pause.
+Use the same game in a mobile browser; no device-selection screen is required. Controls appear automatically on touch devices. Use the joystick to move and swipe the world with another finger to look. Five lower buttons provide Scan, Use, Jump, Pulse and Run; Bag, Map and Pause sit in the top navigation. Discovery notifications are compact, with full details available through Open record.
 
 For direct play, open the [public game](https://armmanas7.github.io/AI-Game-Omni/) on your phone. For a local-network preview:
 

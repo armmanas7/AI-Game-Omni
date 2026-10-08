@@ -1,0 +1,4 @@
+PASS chromium en: 216 HUD states + real discovery/Atlas
+PASS chromium zh-CN: 216 HUD states + real discovery/Atlas
+PASS webkit en: 216 HUD states + real discovery/Atlas
+PASS webkit zh-CN: 216 HUD states + real discovery/Atlas
