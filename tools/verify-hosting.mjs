@@ -42,6 +42,7 @@ for (const [engine, browserType] of [
       );
       try {
         const page = await context.newPage();
+        page.setDefaultNavigationTimeout(60_000);
         const errors = [],
           badResponses = [],
           escapedAssets = [];

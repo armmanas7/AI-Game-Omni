@@ -1,6 +1,6 @@
 # Vesper 1.4.1 — release verification
 
-The mobile interface update was checked on 8 October 2026. The browser integration suite passed all 18 tests, including trusted simultaneous touch input and top-menu activation. The compiled mobile suite passed 76 bilingual layout checks and eight photo downloads in Chromium and WebKit. TypeScript and the production build passed.
+The mobile interface update was checked on 8 October 2026. The browser integration suite passed all 18 tests, including trusted simultaneous touch input and top-menu activation. The compiled mobile suite passed 76 bilingual layout checks and eight photo downloads in Chromium and WebKit. TypeScript and the production build passed. The updated public site also passed six anonymous desktop/phone cases; see [mobile-public-browser-tests.log](mobile-public-browser-tests.log) and [hosting-public-check.json](hosting-public-check.json).
 
 The focused HUD report covers **864 layout cases** and four real discovery/Atlas cases. The data in [mobile-hud-check.json](mobile-hud-check.json) covers phone sizes from 320 × 568 to 844 × 390, both languages, joystick sides, control scales and combinations of scan, supply, discovery and error feedback. It uses real first discovery/Atlas interactions plus frozen copies of the real UI for deterministic layout measurements. The aiming area and thumb controls remain clear; visible action targets remain at least 44 × 44 CSS pixels. Recorded-state feedback yields to the new discovery banner, and an older banner yields to a new interaction’s requirements.
 

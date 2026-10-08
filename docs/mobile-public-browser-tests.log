@@ -1,0 +1,6 @@
+PASS chromium desktop-en
+PASS chromium desktop-zh
+PASS chromium phone-portrait-en
+PASS chromium phone-landscape-zh
+PASS webkit phone-portrait-en
+PASS webkit phone-landscape-zh
